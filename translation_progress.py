@@ -37,3 +37,4 @@ if __name__ == "__main__":
         nuevo_readme = (readme[:inicio] + "<!-- PROGRESO_TRADUCCION_START -->\n" + progreso_md.replace('# Progreso de traducción\n\n', '') + "<!-- PROGRESO_TRADUCCION_END -->" + readme[fin+len("<!-- PROGRESO_TRADUCCION_END -->"):])
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(nuevo_readme)
+
