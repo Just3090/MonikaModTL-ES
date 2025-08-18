@@ -1,0 +1,33 @@
+name: Actualizar progreso de traducción
+
+on:
+  push:
+    paths:
+      - 'files/*.rpy'
+      - 'translation_progress.py'
+
+jobs:
+  scan-translation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo manual
+        run: |
+          git clone https://github.com/Just3090/EMRDemo-TL-ES.git .
+      - name: Instalar Python manual
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3 python3-pip
+      - name: Ejecutar script de progreso
+        run: python3 translation_progress.py
+      - name: Git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Push
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
+          git add TRANSLATION_PROGRESS.md README.md
+          git commit -m "Actualiza progreso de traducción" || echo "Sin cambios"
+          git push origin HEAD
