@@ -1,13 +1,7 @@
 import glob
 import re
 
-COM_ING_LINE = re.compile(r'^\s*#\s')
-
 def _extraer_contenido(linea: str):
-    """
-    Devuelve el contenido dentro de las primeras comillas de la linea,
-    si no encuentra comillas devuelve None.
-    """
     m = re.search(r'"(.*?)"', linea)
     return m.group(1) if m else None
 
@@ -17,18 +11,28 @@ def contar_traduccion():
 
     for archivo in glob.glob("files/*.rpy"):
         with open(archivo, encoding="utf-8") as f:
+            dentro_translate = False
+            original_text = None
             prev_old_original = None
-            prev_comment_original = None
             for linea in f:
-                l = linea.rstrip("\n")
+                l = linea.strip()
 
-                # old/new strings
-                if l.strip().startswith('old "') and l.strip().endswith('"'):
+                if l.startswith("translate spanish"):
+                    dentro_translate = True
+                    original_text = None
+                    continue
+
+                if dentro_translate and l == "":
+                    dentro_translate = False
+                    original_text = None
+                    continue
+
+                if l.startswith('old "') and l.endswith('"'):
                     prev_old_original = _extraer_contenido(l)
                     total += 1
                     continue
 
-                if l.strip().startswith('new "'):
+                if l.startswith('new "'):
                     nuevo = _extraer_contenido(l)
                     if prev_old_original is not None:
                         if nuevo and nuevo != prev_old_original:
@@ -36,28 +40,23 @@ def contar_traduccion():
                     prev_old_original = None
                     continue
 
-                # comentario con original en ingles
-                if COM_ING_LINE.match(l):
-                    # extrae posible texto original del comentario
-                    orig = _extraer_contenido(l)
-                    if orig is not None:
-                        prev_comment_original = orig
-                    else:
-                        prev_comment_original = None
-                    continue
+                if dentro_translate:
+                    if l.startswith("#"):
+                        original_text = _extraer_contenido(l)
+                        continue
 
-                # linea potencial de traducción tras comentario
-                if prev_comment_original is not None:
-                    # ignorar si esta linea es otro comentario o no contiene comillas
-                    if not l.strip().startswith('#'):
-                        trad = _extraer_contenido(l)
-                        if trad is not None:
+                    if l.startswith("m") or l.startswith("extend"):
+                        trad_text = _extraer_contenido(l)
+                        if original_text is not None:
                             total += 1
-                            if trad and trad != prev_comment_original:
+                            if trad_text and trad_text != original_text:
                                 traducidas += 1
-                            prev_comment_original = None
-                        # si no tiene comillas mantenemos el original hasta encontrar una linea válida
-                    continue
+                            original_text = None
+                        elif trad_text is not None:
+                            total += 1
+                            if trad_text:
+                                traducidas += 1
+                        continue
 
     return total, traducidas
 
@@ -68,7 +67,6 @@ if __name__ == "__main__":
     with open("TRANSLATION_PROGRESS.md", "w", encoding="utf-8") as f:
         f.write(progreso_md)
 
-    # Actualizar README.md entre los delimitadores
     with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
     inicio = readme.find("<!-- PROGRESO_TRADUCCION_START -->")
