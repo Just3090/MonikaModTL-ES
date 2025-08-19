@@ -1,24 +1,47 @@
 import glob
 import re
 
+def _extraer_contenido(linea: str):
+    """
+    Devuelve el contenido dentro de las primeras comillas de la linea,
+    si no encuentra comillas devuelve None.
+    """
+    m = re.search(r'"(.*?)"', linea)
+    return m.group(1) if m else None
+
 def contar_traduccion():
     total = 0
     traducidas = 0
     for archivo in glob.glob("files/*.rpy"):
         with open(archivo, encoding="utf-8") as f:
             lines = f.readlines()
-            for i in range(len(lines)):
-                if 'old "' in lines[i]:
+            for i, linea in enumerate(lines):
+                l = linea.strip()
+
+                # old/new strings
+                if l.startswith('old "') and l.endswith('"'):
                     total += 1
-                if 'new "' in lines[i] and not lines[i].strip().endswith('new ""'):
-                    traducidas += 1
-                if re.match(r'^\s*#.*$', lines[i]):
-                    if i+1 < len(lines):
-                        linea_trad = lines[i+1].strip()
-                        if linea_trad.startswith('"') or re.match(r'^\w+\s*".*"$', linea_trad):
-                            total += 1
-                            if linea_trad != '""' and not re.match(r'^\w+\s*""$', linea_trad):
-                                traducidas += 1
+                    continue
+                if l.startswith('new "'):
+                    # contar como traducidas solo si el contenido no esta vacio
+                    contenido = _extraer_contenido(l)
+                    if contenido is not None:
+                        if contenido != "":
+                            traducidas += 1
+                        # el total ya se conto con 'old', asi que no sumamos
+                    continue
+
+                # comentario con el texto original del ingles
+                if re.match(r'^\s*#\s', linea):
+                    if i + 1 < len(lines):
+                        siguiente = lines[i+1].strip()
+                        # la linea siguiente deberia (si, deberia XD) ser una linea traducible
+                        if siguiente and not siguiente.startswith('#'):
+                            contenido = _extraer_contenido(siguiente)
+                            if contenido is not None:
+                                total += 1
+                                if contenido != "":
+                                    traducidas += 1
     return total, traducidas
 
 if __name__ == "__main__":
@@ -34,6 +57,12 @@ if __name__ == "__main__":
     inicio = readme.find("<!-- PROGRESO_TRADUCCION_START -->")
     fin = readme.find("<!-- PROGRESO_TRADUCCION_END -->")
     if inicio != -1 and fin != -1:
-        nuevo_readme = (readme[:inicio] + "<!-- PROGRESO_TRADUCCION_START -->\n" + progreso_md.replace('# Progreso de traducción\n\n', '') + "<!-- PROGRESO_TRADUCCION_END -->" + readme[fin+len("<!-- PROGRESO_TRADUCCION_END -->"):])
+        nuevo_readme = (
+            readme[:inicio]
+            + "<!-- PROGRESO_TRADUCCION_START -->\n"
+            + progreso_md.replace('# Progreso de traducción\n\n', '')
+            + "<!-- PROGRESO_TRADUCCION_END -->"
+            + readme[fin+len("<!-- PROGRESO_TRADUCCION_END -->"):]
+        )
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(nuevo_readme)
