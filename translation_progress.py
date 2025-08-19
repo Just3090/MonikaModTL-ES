@@ -8,54 +8,52 @@ def _extraer_contenido(linea: str):
 def contar_traduccion():
     total = 0
     traducidas = 0
+    prev_old = None
+    dentro_translate = False
+    original_text = None
 
     for archivo in glob.glob("files/*.rpy"):
         with open(archivo, encoding="utf-8") as f:
-            dentro_translate = False
-            original_text = None
-            prev_old_original = None
             for linea in f:
                 l = linea.strip()
+
+                if l.startswith('old "') and l.endswith('"'):
+                    prev_old = _extraer_contenido(l)
+                    total += 1
+                    continue
+
+                if l.startswith('new "'):
+                    nuevo = _extraer_contenido(l)
+                    if prev_old is not None:
+                        if nuevo and nuevo != prev_old:
+                            traducidas += 1
+                    prev_old = None
+                    continue
 
                 if l.startswith("translate spanish"):
                     dentro_translate = True
                     original_text = None
                     continue
 
-                if dentro_translate and l == "":
-                    dentro_translate = False
-                    original_text = None
-                    continue
-
-                if l.startswith('old "') and l.endswith('"'):
-                    prev_old_original = _extraer_contenido(l)
-                    total += 1
-                    continue
-
-                if l.startswith('new "'):
-                    nuevo = _extraer_contenido(l)
-                    if prev_old_original is not None:
-                        if nuevo and nuevo != prev_old_original:
-                            traducidas += 1
-                    prev_old_original = None
-                    continue
-
                 if dentro_translate:
+                    if l == "":
+                        dentro_translate = False
+                        original_text = None
+                        continue
+
                     if l.startswith("#"):
                         original_text = _extraer_contenido(l)
                         continue
 
                     if l.startswith("m") or l.startswith("extend"):
                         trad_text = _extraer_contenido(l)
+                        total += 1
                         if original_text is not None:
-                            total += 1
                             if trad_text and trad_text != original_text:
                                 traducidas += 1
                             original_text = None
-                        elif trad_text is not None:
-                            total += 1
-                            if trad_text:
-                                traducidas += 1
+                        elif trad_text:
+                            traducidas += 1
                         continue
 
     return total, traducidas
