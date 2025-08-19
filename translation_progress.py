@@ -11,6 +11,7 @@ def contar_traduccion():
     prev_old = None
     dentro_translate = False
     original_text = None
+    bloque_vacio = False
 
     for archivo in glob.glob("files/*.rpy"):
         with open(archivo, encoding="utf-8") as f:
@@ -33,12 +34,16 @@ def contar_traduccion():
                 if l.startswith("translate spanish"):
                     dentro_translate = True
                     original_text = None
+                    bloque_vacio = True
                     continue
 
                 if dentro_translate:
                     if l == "":
+                        if bloque_vacio:
+                            continue
                         dentro_translate = False
                         original_text = None
+                        bloque_vacio = False
                         continue
 
                     if l.startswith("#"):
@@ -48,6 +53,7 @@ def contar_traduccion():
                     if l.startswith("m") or l.startswith("extend"):
                         trad_text = _extraer_contenido(l)
                         total += 1
+                        bloque_vacio = False
                         if original_text is not None:
                             if trad_text and trad_text != original_text:
                                 traducidas += 1
