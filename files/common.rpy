@@ -132,403 +132,407 @@ translate spanish strings:
 
     # renpy/common/00action_file.rpy:26
     old "{#weekday}Monday"
-    new ""
+    new "{#weekday}Lunes"
 
     # renpy/common/00action_file.rpy:26
     old "{#weekday}Tuesday"
-    new ""
+    new "{#weekday}Martes"
 
     # renpy/common/00action_file.rpy:26
     old "{#weekday}Wednesday"
-    new ""
+    new "{#weekday}Miércoles"
 
     # renpy/common/00action_file.rpy:26
     old "{#weekday}Thursday"
-    new ""
+    new "{#weekday}Jueves"
 
     # renpy/common/00action_file.rpy:26
     old "{#weekday}Friday"
-    new ""
+    new "{#weekday}Viernes"
 
     # renpy/common/00action_file.rpy:26
     old "{#weekday}Saturday"
-    new ""
+    new "{#weekday}Sábado"
 
     # renpy/common/00action_file.rpy:26
     old "{#weekday}Sunday"
-    new ""
+    new "{#weekday}Domingo"
 
     # renpy/common/00action_file.rpy:37
     old "{#weekday_short}Mon"
-    new ""
+    new "{#weekday_short}Lun"
 
     # renpy/common/00action_file.rpy:37
     old "{#weekday_short}Tue"
-    new ""
+    new "{#weekday_short}Mar"
 
     # renpy/common/00action_file.rpy:37
     old "{#weekday_short}Wed"
-    new ""
+    new "{#weekday_short}Mié"
 
     # renpy/common/00action_file.rpy:37
     old "{#weekday_short}Thu"
-    new ""
+    new "{#weekday_short}Jue"
 
     # renpy/common/00action_file.rpy:37
     old "{#weekday_short}Fri"
-    new ""
+    new "{#weekday_short}Vie"
 
     # renpy/common/00action_file.rpy:37
     old "{#weekday_short}Sat"
-    new ""
+    new "{#weekday_short}Sáb"
 
     # renpy/common/00action_file.rpy:37
     old "{#weekday_short}Sun"
-    new ""
+    new "{#weekday_short}Dom"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}January"
-    new ""
+    new "{#month}Enero"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}February"
-    new ""
+    new "{#month}Febrero"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}March"
-    new ""
+    new "{#month}Marzo"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}April"
-    new ""
+    new "{#month}Abril"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}May"
-    new ""
+    new "{#month}Mayo"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}June"
-    new ""
+    new "{#month}Junio"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}July"
-    new ""
+    new "{#month}Julio"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}August"
-    new ""
+    new "{#month}Agosto"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}September"
-    new ""
+    new "{#month}Septiembre"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}October"
-    new ""
+    new "{#month}Octubre"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}November"
-    new ""
+    new "{#month}Noviembre"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}December"
-    new ""
+    new "{#month}Diciembre"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Jan"
-    new ""
+    new "{#month_short}Ene"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Feb"
-    new ""
+    new "{#month_short}Feb"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Mar"
-    new ""
+    new "{#month_short}Mar"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Apr"
-    new ""
+    new "{#month_short}Abr"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}May"
-    new ""
+    new "{#month_short}May"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Jun"
-    new ""
+    new "{#month_short}Jun"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Jul"
-    new ""
+    new "{#month_short}Jul"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Aug"
-    new ""
+    new "{#month_short}Ago"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Sep"
-    new ""
+    new "{#month_short}Sep"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Oct"
-    new ""
+    new "{#month_short}Oct"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Nov"
-    new ""
+    new "{#month_short}Nov"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Dec"
-    new ""
+    new "{#month_short}Dic"
 
     # renpy/common/00action_file.rpy:258
     old "%b %d, %H:%M"
-    new ""
+    new "%b %d, %H:%M"
 
     # renpy/common/00action_file.rpy:395
     old "Save slot %s: [text]"
-    new ""
+    new "Guardar partida %s: [text]"
 
     # renpy/common/00action_file.rpy:481
     old "Load slot %s: [text]"
-    new ""
+    new "Cargar partida %s: [text]"
 
     # renpy/common/00action_file.rpy:534
     old "Delete slot [text]"
-    new ""
+    new "Borrar partida [text]"
 
     # renpy/common/00action_file.rpy:613
     old "File page auto"
-    new ""
+    new "Página de guardado automático"
 
     # renpy/common/00action_file.rpy:615
     old "File page quick"
-    new ""
+    new "Página de guardado rápido"
 
     # renpy/common/00action_file.rpy:617
     old "File page [text]"
-    new ""
+    new "Nombre del archivo [text]"
 
     # renpy/common/00action_file.rpy:675
     old "Page {}"
-    new ""
+    new "Página {}"
 
     # renpy/common/00action_file.rpy:675
     old "Automatic saves"
-    new ""
+    new "Guardados automáticos"
 
     # renpy/common/00action_file.rpy:675
     old "Quick saves"
-    new ""
+    new "Guardados rápidos"
 
     # renpy/common/00action_file.rpy:816
     old "Next file page."
-    new ""
+    new "Página siguiente."
 
     # renpy/common/00action_file.rpy:888
     old "Previous file page."
-    new ""
+    new "Página anterior"
 
     # renpy/common/00action_file.rpy:949
     old "Quick save complete."
-    new ""
+    new "Guardado rápido completado."
 
     # renpy/common/00action_file.rpy:964
     old "Quick save."
-    new ""
+    new "Guardar rápido."
 
     # renpy/common/00action_file.rpy:983
     old "Quick load."
-    new ""
+    new "Cargar rápido."
 
     # renpy/common/00action_other.rpy:379
     old "Language [text]"
-    new ""
+    new "Idioma [text]"
 
     # renpy/common/00action_other.rpy:744
     old "Open [text] directory."
-    new ""
+    new "Abrir directorio de [text]."
 
     # renpy/common/00director.rpy:712
     old "The interactive director is not enabled here."
-    new ""
+    new "The interactive director is not enabled here."
 
     # renpy/common/00director.rpy:1512
     old "⬆"
-    new ""
+    new "⬆"
 
     # renpy/common/00director.rpy:1518
     old "⬇"
-    new ""
+    new "⬇"
 
     # renpy/common/00director.rpy:1582
     old "Done"
-    new ""
+    new "Listo"
 
     # renpy/common/00director.rpy:1592
     old "(statement)"
-    new ""
+    new "(statement)"
 
     # renpy/common/00director.rpy:1593
     old "(tag)"
-    new ""
+    new "(tag)"
 
     # renpy/common/00director.rpy:1594
     old "(attributes)"
-    new ""
+    new "(attributes)"
 
     # renpy/common/00director.rpy:1595
     old "(transform)"
-    new ""
+    new "(transform)"
 
     # renpy/common/00director.rpy:1620
     old "(transition)"
-    new ""
+    new "(transition)"
 
     # renpy/common/00director.rpy:1632
     old "(channel)"
-    new ""
+    new "(channel)"
 
     # renpy/common/00director.rpy:1633
     old "(filename)"
-    new ""
+    new "(filename)"
 
     # renpy/common/00director.rpy:1662
     old "Change"
-    new ""
+    new "cambiar"
 
     # renpy/common/00director.rpy:1664
     old "Add"
-    new ""
+    new "Añadir"
+
+    # renpy/common/00director.rpy:1667
+    old "Cancel"
+    new "Cancelar"
 
     # renpy/common/00director.rpy:1670
     old "Remove"
-    new ""
+    new "Quitar"
 
     # renpy/common/00director.rpy:1705
     old "Statement:"
-    new ""
+    new "Statement:"
 
     # renpy/common/00director.rpy:1726
     old "Tag:"
-    new ""
+    new "Tag:"
 
     # renpy/common/00director.rpy:1742
     old "Attributes:"
-    new ""
+    new "Attributes:"
 
     # renpy/common/00director.rpy:1753
     old "Click to toggle attribute, right click to toggle negative attribute."
-    new ""
+    new "Click to toggle attribute, right click to toggle negative attribute."
 
     # renpy/common/00director.rpy:1765
     old "Transforms:"
-    new ""
+    new "Transforms:"
 
     # renpy/common/00director.rpy:1776
     old "Click to set transform, right click to add to transform list."
-    new ""
+    new "Click to set transform, right click to add to transform list."
 
     # renpy/common/00director.rpy:1777
     old "Customize director.transforms to add more transforms."
-    new ""
+    new "Customize director.transforms to add more transforms."
 
     # renpy/common/00director.rpy:1789
     old "Behind:"
-    new ""
+    new "Behind:"
 
     # renpy/common/00director.rpy:1800
     old "Click to set, right click to add to behind list."
-    new ""
+    new "Click to set, right click to add to behind list."
 
     # renpy/common/00director.rpy:1812
     old "Transition:"
-    new ""
+    new "Transition:"
 
     # renpy/common/00director.rpy:1822
     old "Click to set."
-    new ""
+    new "Click to set."
 
     # renpy/common/00director.rpy:1823
     old "Customize director.transitions to add more transitions."
-    new ""
+    new "Customize director.transitions to add more transitions."
 
     # renpy/common/00director.rpy:1835
     old "Channel:"
-    new ""
+    new "Channel:"
 
     # renpy/common/00director.rpy:1846
     old "Customize director.audio_channels to add more channels."
-    new ""
+    new "Customize director.audio_channels to add more channels."
 
     # renpy/common/00director.rpy:1858
     old "Audio Filename:"
-    new ""
+    new "Audio Filename:"
 
     # renpy/common/00gui.rpy:448
     old "Are you sure?"
-    new ""
+    new "¿Estás seguro?"
 
     # renpy/common/00gui.rpy:449
     old "Are you sure you want to delete this save?"
-    new ""
+    new "¿Estás seguro de borrar esta partida?"
 
     # renpy/common/00gui.rpy:450
     old "Are you sure you want to overwrite your save?"
-    new ""
+    new "¿Estás seguro de sobreescribir tu partida?"
 
     # renpy/common/00gui.rpy:451
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
-    new ""
+    new "¿Estás seguro de cargar? Se perderá el progreso no guardado."
 
     # renpy/common/00gui.rpy:452
     old "Are you sure you want to quit?"
-    new ""
+    new "¿Estás seguro de salir?"
 
     # renpy/common/00gui.rpy:453
     old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
-    new ""
+    new "¿Estás seguro de volver al menú principal? Se perderá el progreso no guardado."
 
     # renpy/common/00gui.rpy:454
     old "Are you sure you want to continue where you left off?"
-    new ""
+    new "¿Estás seguro de continuar donde lo dejaste?"
 
     # renpy/common/00gui.rpy:455
     old "Are you sure you want to end the replay?"
-    new ""
+    new "¿Estás seguro de terminar la repetición?"
 
     # renpy/common/00gui.rpy:456
     old "Are you sure you want to begin skipping?"
-    new ""
+    new "¿Estás seguro de comenzar a saltar?"
 
     # renpy/common/00gui.rpy:457
     old "Are you sure you want to skip to the next choice?"
-    new ""
+    new "¿Estás seguro de saltar hasta la siguiente elección?"
 
     # renpy/common/00gui.rpy:458
     old "Are you sure you want to skip unseen dialogue to the next choice?"
-    new ""
+    new "¿Estás seguro de saltar el diálogo no visto hasta la siguiente elección?"
 
     # renpy/common/00gui.rpy:459
     old "This save was created on a different device. Maliciously constructed save files can harm your computer. Do you trust this save's creator and everyone who could have changed the file?"
-    new ""
+    new "¿Confías en el dispositivo en el que se creó la partida? Solo debes elegir sí si eres el único usuario del dispositivo. ¿Confías en el creador de la partida y en todos los que pudieron haber cambiado el archivo?"
 
     # renpy/common/00gui.rpy:460
     old "Do you trust the device the save was created on? You should only choose yes if you are the device's sole user."
-    new ""
+    new "¿Confías en el dispositivo en el que se creó la partida? Solo debes elegir sí si eres el único usuario del dispositivo."
 
     # renpy/common/00keymap.rpy:325
     old "Failed to save screenshot as %s."
-    new ""
+    new "Error al guardar la captura de pantalla como %s."
 
     # renpy/common/00keymap.rpy:346
     old "Saved screenshot as %s."
-    new ""
+    new "Captura de pantalla guardada como %s."
 
     # renpy/common/00library.rpy:251
     old "Skip Mode"
-    new ""
+    new "Modo de skip"
 
     # renpy/common/00library.rpy:338
     old "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
@@ -864,15 +868,15 @@ translate spanish strings:
 
     # renpy/common/00translation.rpy:63
     old "Translation identifier: [identifier]"
-    new ""
+    new "Translation identifier: [identifier]"
 
     # renpy/common/00translation.rpy:84
     old " translates [tl.filename]:[tl.linenumber]"
-    new ""
+    new " translates [tl.filename]:[tl.linenumber]"
 
     # renpy/common/00translation.rpy:101
     old "\n{color=#fff}Copied to clipboard.{/color}"
-    new ""
+    new "\n{color=#fff}Copied to clipboard.{/color}"
 
     # renpy/common/00iap.rpy:231
     old "Contacting App Store\nPlease Wait..."
@@ -960,19 +964,19 @@ translate spanish strings:
 
     # renpy/common/00gallery.rpy:643
     old "Image [index] of [count] locked."
-    new ""
+    new "Image [index] of [count] locked."
 
     # renpy/common/00gallery.rpy:663
     old "prev"
-    new ""
+    new "prev"
 
     # renpy/common/00gallery.rpy:664
     old "next"
-    new ""
+    new "next"
 
     # renpy/common/00gallery.rpy:665
     old "slideshow"
-    new ""
+    new "slideshow"
 
     # renpy/common/00gallery.rpy:666
     old "return"
