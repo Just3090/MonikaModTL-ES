@@ -1,6 +1,8 @@
 import glob
 import re
 
+COM_ING_LINE = re.compile(r'^\s*#\s')
+
 def _extraer_contenido(linea: str):
     """
     Devuelve el contenido dentro de las primeras comillas de la linea,
@@ -12,36 +14,51 @@ def _extraer_contenido(linea: str):
 def contar_traduccion():
     total = 0
     traducidas = 0
+
     for archivo in glob.glob("files/*.rpy"):
         with open(archivo, encoding="utf-8") as f:
-            lines = f.readlines()
-            for i, linea in enumerate(lines):
-                l = linea.strip()
+            prev_old_original = None
+            prev_comment_original = None
+            for linea in f:
+                l = linea.rstrip("\n")
 
                 # old/new strings
-                if l.startswith('old "') and l.endswith('"'):
+                if l.strip().startswith('old "') and l.strip().endswith('"'):
+                    prev_old_original = _extraer_contenido(l)
                     total += 1
                     continue
-                if l.startswith('new "'):
-                    # contar como traducidas solo si el contenido no esta vacio
-                    contenido = _extraer_contenido(l)
-                    if contenido is not None:
-                        if contenido != "":
+
+                if l.strip().startswith('new "'):
+                    nuevo = _extraer_contenido(l)
+                    if prev_old_original is not None:
+                        if nuevo and nuevo != prev_old_original:
                             traducidas += 1
-                        # el total ya se conto con 'old', asi que no sumamos
+                    prev_old_original = None
                     continue
 
-                # comentario con el texto original del ingles
-                if re.match(r'^\s*#\s', linea):
-                    if i + 1 < len(lines):
-                        siguiente = lines[i+1].strip()
-                        # la linea siguiente deberia (si, deberia XD) ser una linea traducible
-                        if siguiente and not siguiente.startswith('#'):
-                            contenido = _extraer_contenido(siguiente)
-                            if contenido is not None:
-                                total += 1
-                                if contenido != "":
-                                    traducidas += 1
+                # comentario con original en ingles
+                if COM_ING_LINE.match(l):
+                    # extrae posible texto original del comentario
+                    orig = _extraer_contenido(l)
+                    if orig is not None:
+                        prev_comment_original = orig
+                    else:
+                        prev_comment_original = None
+                    continue
+
+                # linea potencial de traducción tras comentario
+                if prev_comment_original is not None:
+                    # ignorar si esta linea es otro comentario o no contiene comillas
+                    if not l.strip().startswith('#'):
+                        trad = _extraer_contenido(l)
+                        if trad is not None:
+                            total += 1
+                            if trad and trad != prev_comment_original:
+                                traducidas += 1
+                            prev_comment_original = None
+                        # si no tiene comillas mantenemos el original hasta encontrar una linea válida
+                    continue
+
     return total, traducidas
 
 if __name__ == "__main__":
