@@ -4,33 +4,33 @@ translate spanish strings:
 
     # game/zz_windowutils.rpy:608
     old "[player], I want to talk to you about something."
-    new ""
+    new "Quiero decirte algo, [player]."
 
     # game/zz_windowutils.rpy:608
     old "Are you there, [player]?"
-    new ""
+    new "¿[player]? ¿Estás ahí?"
 
     # game/zz_windowutils.rpy:608
     old "Can you come here for a second?"
-    new ""
+    new "¿Puedes acercarte un momento?"
 
     # game/zz_windowutils.rpy:608
     old "[player], do you have a second?"
-    new ""
+    new "¿Tienes un momento, [player]?"
 
     # game/zz_windowutils.rpy:608
     old "I have something to tell you, [player]!"
-    new ""
+    new "¡Tengo que contarte algo, [player]!"
 
     # game/zz_windowutils.rpy:608
     old "Do you have a minute, [player]?"
-    new ""
+    new "¿Tienes un minutillo, [player]?"
 
     # game/zz_windowutils.rpy:608
     old "I've got something to talk about, [player]!"
-    new ""
+    new "¡Tengo algo que contarte, [player]!"
 
     # game/zz_windowutils.rpy:619
     old "Hey [player], I want to tell you something."
-    new ""
+    new "Oye, [player], quiero decirte algo."
 
