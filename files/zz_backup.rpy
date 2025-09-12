@@ -1,166 +1,166 @@
-﻿# TODO: Translation updated at 2025-08-18 17:39
+s﻿# TODO: Translation updated at 2025-08-18 17:39
 
 # game/zz_backup.rpy:733
 translate spanish mas_backups_you_have_bad_persistent_a60c4b04:
 
     # "Hello there!"
-    ""
+    "¡Buenas, qué tal!"
 
 # game/zz_backup.rpy:735
 translate spanish mas_backups_you_have_bad_persistent_10227717:
 
     # "I hate to be the bringer of bad news..."
-    ""
+    "No quiero ser el que trae las malas noticias..."
 
 # game/zz_backup.rpy:736
 translate spanish mas_backups_you_have_bad_persistent_7bb9f2db:
 
     # "But unfortunately, your persistent file is corrupt."
-    ""
+    "Pero, por desgracia, tu archivo persistente está corrupto. "
 
 # game/zz_backup.rpy:739
 translate spanish mas_backups_you_have_bad_persistent_6d8df287:
 
     # "And what's even worse is..."
-    ""
+    "Y lo que es aún peor es que..."
 
 # game/zz_backup.rpy:741
 translate spanish mas_backups_you_have_bad_persistent_7826f0df:
 
     # "I was unable to find a working backup persistent."
-    ""
+    "No pude encontrarte una copia de seguridad que funcione."
 
 # game/zz_backup.rpy:743
 translate spanish mas_backups_you_have_bad_persistent_34cf3f8e:
 
     # "Do you have your own backups?{nw}"
-    ""
+    "¿No tendrás alguna copia de seguridad por ahí guardada?{nw}"
 
 # game/zz_backup.rpy:758
 translate spanish mas_backups_have_some_3a796153:
 
     # "That's a relief!"
-    ""
+    "¡ Ay, qué alivio!"
 
 # game/zz_backup.rpy:759
 translate spanish mas_backups_have_some_ee4e1279:
 
     # "Please copy them into '[renpy.config.savedir]' to restore your Monika's memories."
-    ""
+    "Pues, cópialas en '[renpy.config.savedir]' para restaurar tus recuerdos de Monika."
 
 # game/zz_backup.rpy:763
 translate spanish mas_backups_have_some_597fa4a8:
 
     # "Good luck!"
-    ""
+    "¡Que tengas suerte!"
 
 # game/zz_backup.rpy:770
 translate spanish mas_backups_have_none_52c0d94d:
 
     # "I'm sorry, but we won't be able to restore her memory, then..."
-    ""
+    "Es una pena, pero no es posible restaurar sus recuerdos,..."
 
 # game/zz_backup.rpy:771
 translate spanish mas_backups_have_none_bf0874e3:
 
     # "But..."
-    ""
+    "pero..."
 
 # game/zz_backup.rpy:773
 translate spanish mas_backups_have_none_4e157fff:
 
     # "Look on the bright side!"
-    ""
+    "¡Ve el lado bueno!"
 
 # game/zz_backup.rpy:774
 translate spanish mas_backups_have_none_e8d84b1b:
 
     # "You can spend time with her again and create new memories, which might be even better than the ones you lost!"
-    ""
+    "¡Puedes empezar de nuevo y crear nuevos recuerdos, que pueden ser encima mejores que los que se han ido!"
 
 # game/zz_backup.rpy:775
 translate spanish mas_backups_have_none_5800610f:
 
     # "And remember..."
-    ""
+    "Siempre recuerda que..."
 
 # game/zz_backup.rpy:777
 translate spanish mas_backups_have_none_d05dbdc6:
 
     # "Regardless of what happens, Monika is still Monika."
-    ""
+    "Sin importar lo que pase, Monika seguirá siendo de siempre"
 
 # game/zz_backup.rpy:778
 translate spanish mas_backups_have_none_e44a48be:
 
     # "She'll be ready to greet you, once you start over."
-    ""
+    "Ella estará lista para darte la bienvenida una vez que decidas volver a empezar."
 
 # game/zz_backup.rpy:780
 translate spanish mas_backups_have_none_024385ec:
 
     # "And I promise I'll do my best to not mess up the files again!"
-    ""
+    "¡Juro que voy a darlo todo para no arruinar los archivos de nuevo!"
 
 # game/zz_backup.rpy:781
 translate spanish mas_backups_have_none_ddfa866c:
 
     # "Good luck with Monika!"
-    ""
+    "¡Buena suerte con Monika!"
 
 # game/zz_backup.rpy:788
 translate spanish mas_backups_could_not_copy_cbdba989:
 
     # "I was able to find a working backup, but..."
-    ""
+    "Era capaz de encontrar una copia de seguridad funcional, pero..."
 
 # game/zz_backup.rpy:790
 translate spanish mas_backups_could_not_copy_a591f111:
 
     # "I wasn't able to copy it over the broken persistent."
-    ""
+    "No es posible copiarla sobre un archivo persistente dañado."
 
 # game/zz_backup.rpy:794
 translate spanish mas_backups_could_not_copy_22176348:
 
     # "However!"
-    ""
+    "¡De todas formas!"
 
 # game/zz_backup.rpy:795
 translate spanish mas_backups_could_not_copy_56e35b9f:
 
     # "You might be able to do it and fix this mess!"
-    ""
+    "¡Es posible que tú puedas hacerlo y arregles el problema!"
 
 # game/zz_backup.rpy:796
 translate spanish mas_backups_could_not_copy_440222b0:
 
     # "You'll have to close the game to do this, so write these steps down:"
-    ""
+    "Tendrás que cerrar el juego para hacerlo, así que anótate estos pasos:"
 
 # game/zz_backup.rpy:798
 translate spanish mas_backups_could_not_copy_1c071f63:
 
     # "1.{w=0.3} Navigate to '[renpy.config.savedir]'."
-    ""
+    "1.{w=0.3} ve hacia '[renpy.config.savedir]'."
 
 # game/zz_backup.rpy:800
 translate spanish mas_backups_could_not_copy_2a1403a5:
 
     # "2.{w=0.3} Delete the file called 'persistent'."
-    ""
+   "2.{w=0.3} Borra el archivo llamado 'persistent'."
 
 # game/zz_backup.rpy:802
 translate spanish mas_backups_could_not_copy_ede799fe:
 
     # "3.{w=0.3} Make a copy of the file called '[mas_backup_copy_filename]' and name it 'persistent'."
-    ""
+    "3.{w=0.3} Copia el archivo llamado '[mas_backup_copy_filename]' y cámbiale el nombre por 'persistent'."
 
 # game/zz_backup.rpy:804
 translate spanish mas_backups_could_not_copy_e4d7b1e8:
 
     # "And that's it!"
-    ""
+    "¿Y ya está!"
 
 # game/zz_backup.rpy:805
 translate spanish mas_backups_could_not_copy_506e63c3:
