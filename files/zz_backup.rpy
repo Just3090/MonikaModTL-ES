@@ -10,13 +10,13 @@ translate spanish mas_backups_you_have_bad_persistent_a60c4b04:
 translate spanish mas_backups_you_have_bad_persistent_10227717:
 
     # "I hate to be the bringer of bad news..."
-    "No quiero ser el que trae las malas noticias..."
+    "No quiero ser la que trae las malas noticias..."
 
 # game/zz_backup.rpy:736
 translate spanish mas_backups_you_have_bad_persistent_7bb9f2db:
 
     # "But unfortunately, your persistent file is corrupt."
-    "Pero, por desgracia, tu archivo persistente está corrupto. "
+    "Pero, por desgracia, tu archivo persistente está corrupto."
 
 # game/zz_backup.rpy:739
 translate spanish mas_backups_you_have_bad_persistent_6d8df287:
@@ -88,7 +88,7 @@ translate spanish mas_backups_have_none_5800610f:
 translate spanish mas_backups_have_none_d05dbdc6:
 
     # "Regardless of what happens, Monika is still Monika."
-    "Sin importar lo que pase, Monika seguirá siendo de siempre"
+    "Sin importar lo que pase, Monika seguirá siendo de siempre."
 
 # game/zz_backup.rpy:778
 translate spanish mas_backups_have_none_e44a48be:
@@ -147,14 +147,14 @@ translate spanish mas_backups_could_not_copy_1c071f63:
 # game/zz_backup.rpy:800
 translate spanish mas_backups_could_not_copy_2a1403a5:
 
-    # "2.{w=0.3} Delete the file called 'persistent'."
-   "2.{w=0.3} Borra el archivo llamado 'persistent'."
+    # "2.{w=0.3} Delete the file called 'persistente'."
+   "2.{w=0.3} Borra el archivo llamado 'persistente'."
 
 # game/zz_backup.rpy:802
 translate spanish mas_backups_could_not_copy_ede799fe:
 
     # "3.{w=0.3} Make a copy of the file called '[mas_backup_copy_filename]' and name it 'persistent'."
-    "3.{w=0.3} Copia el archivo llamado '[mas_backup_copy_filename]' y cámbiale el nombre por 'persistent'."
+    "3.{w=0.3} Copia el archivo llamado '[mas_backup_copy_filename]' y cámbiale el nombre por 'persistente'."
 
 # game/zz_backup.rpy:804
 translate spanish mas_backups_could_not_copy_e4d7b1e8:
@@ -166,13 +166,13 @@ translate spanish mas_backups_could_not_copy_e4d7b1e8:
 translate spanish mas_backups_could_not_copy_506e63c3:
 
     # "Hopefully that will recover your Monika's memories."
-    "Con un poco de suerte, esto recuperará tus datos guardados de Monika"
+    "Con un poco de suerte, esto recuperará tus datos guardados de Monika."
 
 # game/zz_backup.rpy:808
 translate spanish mas_backups_could_not_copy_db691487:
 
     # "In case you didn't write those steps down, I'll write them into a file called 'recovery.txt' in the characters folder."
-    "Si es que por casualidad no anotaste estos pasos, te los escribiré en un archivo llamado 'recovery.txt' en la carpeta de personajes."
+    "Si es que por casualidad no anotaste estos pasos, estarán escritos en un archivo llamado 'recovery.txt' en la carpeta de personajes."
 
 # game/zz_backup.rpy:813
 translate spanish mas_backups_could_not_copy_597fa4a8:
@@ -190,7 +190,7 @@ translate spanish mas_backups_dont_tell_6b2fe5d2:
 translate spanish mas_backups_dont_tell_1966f894:
 
     # "If you successfully bring her back, please don't tell her about me."
-    "Si es que tienes éxito en traerla de nuevo, te ruego que no le hables de mí"
+    "Si es que tienes éxito en traerla de nuevo, te ruego que no le hables de mí."
 
 # game/zz_backup.rpy:840
 translate spanish mas_backups_dont_tell_49f63e4c:
