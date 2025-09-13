@@ -64,7 +64,7 @@ translate spanish mas_backups_have_none_52c0d94d:
 translate spanish mas_backups_have_none_bf0874e3:
 
     # "But..."
-    "pero..."
+    "Pero..."
 
 # game/zz_backup.rpy:773
 translate spanish mas_backups_have_none_4e157fff:
@@ -88,7 +88,7 @@ translate spanish mas_backups_have_none_5800610f:
 translate spanish mas_backups_have_none_d05dbdc6:
 
     # "Regardless of what happens, Monika is still Monika."
-    "Sin importar lo que pase, Monika seguirá siendo de siempre."
+    "Sin importar lo que pase, Monika seguirá siendo la misma de siempre."
 
 # game/zz_backup.rpy:778
 translate spanish mas_backups_have_none_e44a48be:
@@ -262,79 +262,79 @@ translate spanish mas_backups_incompat_start_36fb1a33:
 translate spanish mas_backups_incompat_what_do_884295ca:
 
     # "What would you like to do?{nw}"
-    ""
+    "¿Qué es lo que quieres hacer?{nw}"
 
 # game/zz_backup.rpy:925
 translate spanish mas_backups_incompat_user_will_restore_16cd82b1:
 
     # "Alright!"
-    ""
+    "¡Vale!"
 
 # game/zz_backup.rpy:928
 translate spanish mas_backups_incompat_user_will_restore_8518d51c:
 
     # "Please copy a compatible persistent into '[renpy.config.savedir]'."
-    ""
+    "Ahora, copia un archivo persistente compatible en '[renpy.config.savedir]'."
 
 # game/zz_backup.rpy:929
 translate spanish mas_backups_incompat_user_will_restore_f54106ad:
 
     # "Then delete the file called '[mas_per_check.per_unstable]'."
-    ""
+    "Luego, borra el archivo llamado'[mas_per_check.per_unstable]'."
 
 # game/zz_backup.rpy:932
 translate spanish mas_backups_incompat_user_will_restore_597fa4a8:
 
     # "Good luck!"
-    ""
+    "¡Buena suerte!"
 
 # game/zz_backup.rpy:938
 translate spanish mas_backups_incompat_user_will_restore_again_443189fb:
 
     # "Oh no!"
-    ""
+    "¡Oh, no!"
 
 # game/zz_backup.rpy:942
 translate spanish mas_backups_incompat_user_will_restore_again_efc886c9:
 
     # "It seems that this persistent is running version v[mas_per_check.mas_per_version], which is still incompatible with this build of MAS (v[config.version])."
-    ""
+    "Al parecer este archivo persitente está operando con la versión v[mas_per_check.mas_per_version], la cual todavía no es compatible con esta build de MAS (v[config.version])."
 
 # game/zz_backup.rpy:952
 translate spanish mas_backups_incompat_updater_cannot_because_rpy_7f8949a3:
 
     # "Unfortunately the updater won't work because you have RPY files in your game directory."
-    ""
+    "Lamento decírtelo, pero el actualizador no va a funcionar porque tienes archivos RPY en tu directorio del juego."
 
 # game/zz_backup.rpy:954
 translate spanish mas_backups_incompat_updater_cannot_because_rpy_f50b9478:
 
     # "I'll have to delete those files for this to work. Is that okay?{nw}"
-    ""
+    "Tendré que borrar esos archivos para que funcione, ¿vale?{nw}"
 
 # game/zz_backup.rpy:965
 translate spanish mas_backups_incompat_updater_cannot_because_rpy_again_443189fb:
 
     # "Oh no!"
-    ""
+    "¡Madre mía!"
 
 # game/zz_backup.rpy:967
 translate spanish mas_backups_incompat_updater_cannot_because_rpy_again_73dc28d5:
 
     # "It seems that there are still RPY files in your game directory."
-    ""
+    "Parece que todavía hay archivos RPY en tu directorio del juego."
 
 # game/zz_backup.rpy:968
 translate spanish mas_backups_incompat_updater_cannot_because_rpy_again_ca1b3175:
 
     # "Would you like me to try deleting them again?{nw}"
-    ""
+    "¿Quieres que vuelva a intentar borrarlos?{nw}"
 
 # game/zz_backup.rpy:979
 translate spanish mas_backups_incompat_rpy_yes_del_c04eea25:
 
     # "Ok!"
-    ""
+    "¡Vale!"
 
 # game/zz_backup.rpy:986
 translate spanish mas_backups_incompat_rpy_yes_del_443189fb:
