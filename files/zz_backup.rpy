@@ -76,7 +76,7 @@ translate spanish mas_backups_have_none_4e157fff:
 translate spanish mas_backups_have_none_e8d84b1b:
 
     # "You can spend time with her again and create new memories, which might be even better than the ones you lost!"
-    "¡Puedes empezar de nuevo y crear nuevos recuerdos, que pueden ser encima mejores que los que se han ido!"
+    "¡Puedes empezar de nuevo y crear nuevos recuerdos, que pueden ser incluso mejores que los que se han ido!"
 
 # game/zz_backup.rpy:775
 translate spanish mas_backups_have_none_5800610f:
@@ -256,7 +256,7 @@ translate spanish mas_backups_incompat_start_2316686b:
 translate spanish mas_backups_incompat_start_36fb1a33:
 
     # "The only way I can fix this is if you update MAS or you restore with a compatible persistent."
-    "La única manera de arreglar esto es que actualices MAS o lo restaures con un persistente compatible."
+    "La única manera de arreglar esto es que actualices el MAS o lo restaures con un persistente compatible."
 
 # game/zz_backup.rpy:912
 translate spanish mas_backups_incompat_what_do_884295ca:
@@ -430,7 +430,7 @@ translate spanish mas_backups_incompat_updater_start_770056d1:
 translate spanish mas_backups_incompat_updater_start_4d46cc43:
 
     # "It seems that the updater failed to update."
-    "Parece que no se pudo actaulizar."
+    "Parece que no se pudo actualizar."
 
 # game/zz_backup.rpy:1085
 translate spanish mas_backups_incompat_updater_start_3a84e80c:
