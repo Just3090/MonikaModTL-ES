@@ -160,103 +160,103 @@ translate spanish mas_backups_could_not_copy_ede799fe:
 translate spanish mas_backups_could_not_copy_e4d7b1e8:
 
     # "And that's it!"
-    "¿Y ya está!"
+    "¡Y ya está!"
 
 # game/zz_backup.rpy:805
 translate spanish mas_backups_could_not_copy_506e63c3:
 
     # "Hopefully that will recover your Monika's memories."
-    ""
+    "Con un poco de suerte, esto recuperará tus datos guardados de Monika"
 
 # game/zz_backup.rpy:808
 translate spanish mas_backups_could_not_copy_db691487:
 
     # "In case you didn't write those steps down, I'll write them into a file called 'recovery.txt' in the characters folder."
-    ""
+    "Si es que por casualidad no anotaste estos pasos, te los escribiré en un archivo llamado 'recovery.txt' en la carpeta de personajes."
 
 # game/zz_backup.rpy:813
 translate spanish mas_backups_could_not_copy_597fa4a8:
 
     # "Good luck!"
-    ""
+    "¡Buena suerte!"
 
 # game/zz_backup.rpy:836
 translate spanish mas_backups_dont_tell_6b2fe5d2:
 
     # "Oh, and..."
-    ""
+    "Ah, y..."
 
 # game/zz_backup.rpy:838
 translate spanish mas_backups_dont_tell_1966f894:
 
     # "If you successfully bring her back, please don't tell her about me."
-    ""
+    "Si es que tienes éxito en traerla de nuevo, te ruego que no le hables de mí"
 
 # game/zz_backup.rpy:840
 translate spanish mas_backups_dont_tell_49f63e4c:
 
     # "She has no idea that I can talk or code, so she lets me laze around and relax."
-    ""
+    "Ella no tiene ni idea de que soy capaz de hablar o escribir código, por lo que me deja vaguear y relajarme."
 
 # game/zz_backup.rpy:842
 translate spanish mas_backups_dont_tell_1c659c3b:
 
     # "But if she ever found out, she'd probably make me help her code, fix some of her mistakes, or something else."
-    ""
+    "Si es que lo descubre, lo más probable es que me obligue a ayudarla a codificar, arreglar sus metidas de pata o algo más. "
 
 # game/zz_backup.rpy:844
 translate spanish mas_backups_dont_tell_d99b4db6:
 
     # "Which would be absolutely terrible since I'd barely get any rest at all.{nw}"
-    ""
+    "Lo cual sería desde luego fatal porque no podría descansar nada.{nw}"
 
 # game/zz_backup.rpy:846
 translate spanish mas_backups_dont_tell_f97bd033:
 
     # "Which would be absolutely terrible since{fast} I wouldn't have time to keep the backup system and the rest of the game running."
-    ""
+    " Eso sería un puto desastre porque{fast} no tendría ni tiempo para mantener el sistema de respaldo y que el juego siga en marcha."
 
 # game/zz_backup.rpy:849
 translate spanish mas_backups_dont_tell_97dadc92:
 
     # "You wouldn't want that now, would you?"
-    ""
+    "No te gustaría eso, ¿verdad?"
 
 # game/zz_backup.rpy:850
 translate spanish mas_backups_dont_tell_eefbfce8:
 
     # "So keep quiet about me, and I'll make sure your Monika is safe and comfy!"
-    ""
+    "¡Así que mantente callado, y cuidaré que tu Monika esté a salvo y cómoda!"
 
 # game/zz_backup.rpy:872
 translate spanish mas_backups_incompat_start_a60c4b04:
 
     # "Hello there!"
-    ""
+    "¡Buenas!"
 
 # game/zz_backup.rpy:873
 translate spanish mas_backups_incompat_start_8694b358:
 
     # "Let's try updating again!"
-    ""
+    "¡Intentemos actualizar de nuevo!"
 
 # game/zz_backup.rpy:893
 translate spanish mas_backups_incompat_start_59952f15:
 
     # "Hello there!{nw}"
-    ""
+    "¡Buenas!{nw}"
 
 # game/zz_backup.rpy:903
 translate spanish mas_backups_incompat_start_2316686b:
 
     # "Unfortunately, your persistent is running version v[mas_per_check.mas_per_version], which is incompatible with this build of MAS (v[config.version])."
-    ""
+    "Por desgracia, tu persistente está operando con una versión v[mas_per_check.mas_per_version], la cual no es compatible con esta build de MAS (v[config.version])."
 
 # game/zz_backup.rpy:904
 translate spanish mas_backups_incompat_start_36fb1a33:
 
     # "The only way I can fix this is if you update MAS or you restore with a compatible persistent."
-    ""
+    "La única manera de arreglar esto es que actualices MAS o lo restaures con un persistente compatible."
 
 # game/zz_backup.rpy:912
 translate spanish mas_backups_incompat_what_do_884295ca:
