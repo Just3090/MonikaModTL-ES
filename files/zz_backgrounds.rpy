@@ -22,7 +22,7 @@ translate spanish monika_change_background_loop_b14bb466:
 translate spanish monika_change_background_loop_321f071e:
 
     # m "Try again~"
-    m "Inténtalo de nuevo"
+    m "Inténtalo de nuevo."
 
 # game/zz_backgrounds.rpy:3384
 translate spanish mas_background_change_3d8a873d:
@@ -34,13 +34,13 @@ translate spanish mas_background_change_3d8a873d:
 translate spanish mas_background_change_f04503eb:
 
     # m 1hua "Let's go, [player]!"
-    m 1hua "!Vamos, [jugador]!"
+    m 1hua "!Vamos, [player]!"
 
 # game/zz_backgrounds.rpy:3434
 translate spanish mas_background_change_e162a061:
 
     # m 1eua "Here we are!"
-    m 1eua "¡Pues, aquí estamos!"
+    m 1eua "Pues... ¡aquí estamos!"
 
 # game/zz_backgrounds.rpy:3435
 translate spanish mas_ background_change_e43af2ef:
