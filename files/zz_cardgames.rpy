@@ -4,43 +4,43 @@
 translate spanish monika_introduce_nou_house_rules_7813486e:
 
     # m 3eud "Oh [player], I almost forgot!"
-    m 3eud ""
+    m 3eud "Ah [player]... ¡casi me olvido de decírtelo!"
 
 # game/zz_cardgames.rpy:3969
 translate spanish monika_introduce_nou_house_rules_4b2fe472:
 
     # m 3eua "If you ever feel like those official rules aren't fun enough...{w=0.5}{nw}"
-    m 3eua ""
+    m 3eua "Si alguna vez sientes que esas reglas oficiales no molan mucho...{w=0.5}{nw}"
 
 # game/zz_cardgames.rpy:3970
 translate spanish monika_introduce_nou_house_rules_e688262c:
 
     # extend 1kua "just let me know and we'll play with our own house rules."
-    extend 1kua ""
+    extend 1kua "Sólo dímelo y jugaremos con nuestras propias reglas."
 
 # game/zz_cardgames.rpy:4004
 translate spanish monika_change_nou_house_rules_8ca5c816:
 
     # m 3eud "[player], we still haven't finished our game."
-    m 3eud ""
+    m 3eud "[player], el juego aún no ha terminado."
 
 # game/zz_cardgames.rpy:4005
 translate spanish monika_change_nou_house_rules_9fd75cb2:
 
     # m 1euc "If you want to play with new rules, then we'll have to start a new game next time."
-    m 1euc ""
+    m 1euc "Si es que quieres cambiar las reglas, tendremos que comenzar de cero la próxima."
 
 # game/zz_cardgames.rpy:4008
 translate spanish monika_change_nou_house_rules_0b54dfcd:
 
     # m 1eub "Of course."
-    m 1eub ""
+    m 1eub "De acuerdo."
 
 # game/zz_cardgames.rpy:4061
 translate spanish monika_change_nou_house_rules_menu_loop_8f323283:
 
     # m "Would you like to change anything else?" nointeract
-    m "" nointeract
+    m "¿Quiere cambiar alguna otra cosa?" nointeract
 
 # game/zz_cardgames.rpy:4064
 translate spanish monika_change_nou_house_rules_menu_loop_1630bfdc:
@@ -52,79 +52,79 @@ translate spanish monika_change_nou_house_rules_menu_loop_1630bfdc:
 translate spanish monika_change_nou_house_rules_menu_loop_f818ab76:
 
     # m 1eub "Alright!"
-    m 1eub ""
+    m 1eub "¡Vale!"
 
 # game/zz_cardgames.rpy:4085
 translate spanish monika_change_nou_house_rules_menu_loop_f818ab76_1:
 
     # m 1eub "Alright!"
-    m 1eub ""
+    m 1eub "¡Vale!"
 
 # game/zz_cardgames.rpy:4090
 translate spanish monika_change_nou_house_rules_menu_loop_525c8cd7:
 
     # m 1tub "Okay, but I must warn you that that might go against you~"
-    m 1tub ""
+    m 1tub "Pues... debo de advertirte que esto puede jugarte en contra."
 
 # game/zz_cardgames.rpy:4093
 translate spanish monika_change_nou_house_rules_menu_loop_7d35bf3c:
 
     # m 1ttu "Afraid that I'll make you draw all the cards?~"
-    m 1ttu ""
+    m 1ttu "¿Tienes miedo de que te haga tomar todas las cartas?"
 
 # game/zz_cardgames.rpy:4094
 translate spanish monika_change_nou_house_rules_menu_loop_57120ce2:
 
     # m 1hub "Ahaha~ I'm just kidding!"
-    m 1hub ""
+    m 1hub "¡Ja, ja, ja! ¡Sólo te estoy vacilando!"
 
 # game/zz_cardgames.rpy:4100
 translate spanish monika_change_nou_house_rules_menu_loop_5330895f:
 
     # m 1eua "That sounds fun."
-    m 1eua ""
+    m 1eua "Suena guay."
 
 # game/zz_cardgames.rpy:4103
 translate spanish monika_change_nou_house_rules_menu_loop_a4b5c884:
 
     # m 1eua "Back to the classic, I see."
-    m 1eua ""
+    m 1eua "Ya veo... quieres volver al modo clásico."
 
 # game/zz_cardgames.rpy:4109
 translate spanish monika_change_nou_house_rules_menu_loop_24228f38:
 
     # m 1kuu "Oh, you better be ready for this one, [player]~"
-    m 1kuu ""
+    m 1kuu "Anda, más te vale prepararte para lo que viene, [player]."
 
 # game/zz_cardgames.rpy:4112
 translate spanish monika_change_nou_house_rules_menu_loop_488d6925:
 
     # m 1ttu "Was it too chaotic?~"
-    m 1ttu ""
+    m 1ttu "¿Se ha liado mucho?"
 
 # game/zz_cardgames.rpy:4117
 translate spanish monika_change_nou_house_rules_menu_loop_f22f8544:
 
     # m 3eub "Okay! Then settled!"
-    m 3eub ""
+    m 3eub "¡Vale! ¡Está hecho!"
 
 # game/zz_cardgames.rpy:4127
 translate spanish monika_change_nou_house_rules_menu_loop_300eb037:
 
     # m 1eub "Sure!"
-    m 1eub ""
+    m 1eub "¡Claro!"
 
 # game/zz_cardgames.rpy:4128
 translate spanish monika_change_nou_house_rules_menu_loop_44cfa94c:
 
     # m 1eua "Victory points is the number of points you need to reach to win the game."
-    m 1eua ""
+    m 1eua "Los puntos de victoria son la cantidad de puntos que necesitas para llevarte la partida."
 
 # game/zz_cardgames.rpy:4129
 translate spanish monika_change_nou_house_rules_menu_loop_9389cf04:
 
     # m 3eud "If you want to play without points, just choose '0'."
-    m 3eud ""
+    m 3eud "Pues... si prefieres jugar sin contar los puntos, elige '0'."
 
 # game/zz_cardgames.rpy:4130
 translate spanish monika_change_nou_house_rules_menu_loop_bf352209:
