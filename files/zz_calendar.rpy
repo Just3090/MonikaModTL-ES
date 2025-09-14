@@ -4,163 +4,163 @@
 translate spanish mas_show_calendar_detail_9c5ff161:
 
     # m 1eub "Oh, you want to take another look at that pretty calendar hanging on the wall, [player]?"
-    m 1eub ""
+    m 1eub "Vaya... ¿Quieres volver a mirar ese calendario tan chulo que está en la pared, [player]?"
 
 # game/zz_calendar.rpy:2165
 translate spanish mas_show_calendar_detail_6b069f8b:
 
     # m 3hua "It helps me keep track of important events, like your birthday, ehehe~"
-    m 3hua ""
+    m 3hua "Me es muy útil para llevar la cuenta de los sucesos importantes, como tu cumpleaños. Je, je, je"
 
 # game/zz_calendar.rpy:2167
 translate spanish mas_show_calendar_detail_72782367:
 
     # m 1eub "Oh, I see you noticed that pretty calendar hanging on the wall, [player]."
-    m 1eub ""
+    m 1eub "Vaya... veo que notaste ese calendario tan chulo que está en la pared, [player]"
 
 # game/zz_calendar.rpy:2168
 translate spanish mas_show_calendar_detail_b262b5f6:
 
     # m 3hua "It helps me keep track of important events, ehehe~"
-    m 3hua ""
+    m 3hua "Me es útil para no olvidar los sucesos importantes. Je, je, je."
 
 # game/zz_calendar.rpy:2170
 translate spanish mas_show_calendar_detail_ce9b94b7:
 
     # m 1eua "Here, let me show you."
-    m 1eua ""
+    m 1eua "Ven aquí, quiero mostrarte algo."
 
 # game/zz_calendar.rpy:2175
 translate spanish mas_show_calendar_detail_f7af61a6:
 
     # m 1hua "Pretty cool, right?"
-    m 1hua ""
+    m 1hua "Vaya chulada, ¿no?"
 
 # game/zz_calendar.rpy:2176
 translate spanish mas_show_calendar_detail_d2dea50f:
 
     # m 3eua "Feel free to check the calendar whenever you want."
-    m 3eua ""
+    m 3eua "Puedes echarle un ojo cada vez que lo necesites."
 
 # game/zz_calendar.rpy:2177
 translate spanish mas_show_calendar_detail_46b69767:
 
     # m 1lksdla "Except for when I'm in the middle of talking, of course."
-    m 1lksdla ""
+    m 1lksdla "Pero, claro, ni se te ocurra hacerlo mientras estoy hablando."
 
 translate spanish strings:
 
     # game/zz_calendar.rpy:92
     old "Unknown"
-    new ""
+    new "Desconocido"
 
     # game/zz_calendar.rpy:92
     old "January"
-    new ""
+    new "Enero"
 
     # game/zz_calendar.rpy:92
     old "February"
-    new ""
+    new "Febrero"
 
     # game/zz_calendar.rpy:92
     old "March"
-    new ""
+    new "Marzo"
 
     # game/zz_calendar.rpy:92
     old "April"
-    new ""
+    new "Abril"
 
     # game/zz_calendar.rpy:92
     old "May"
-    new ""
+    new "Mayo"
 
     # game/zz_calendar.rpy:92
     old "June"
-    new ""
+    new "Junio"
 
     # game/zz_calendar.rpy:92
     old "July"
-    new ""
+    new "Julio"
 
     # game/zz_calendar.rpy:92
     old "August"
-    new ""
+    new "Agosto"
 
     # game/zz_calendar.rpy:92
     old "September"
-    new ""
+    new "September"
 
     # game/zz_calendar.rpy:92
     old "October"
-    new ""
+    new "Octubre"
 
     # game/zz_calendar.rpy:92
     old "November"
-    new ""
+    new "Noviembre"
 
     # game/zz_calendar.rpy:92
     old "December"
-    new ""
+    new "Diciembre"
 
     # game/zz_calendar.rpy:98
     old "Sunday"
-    new ""
+    new "Domingo"
 
     # game/zz_calendar.rpy:98
     old "Monday"
-    new ""
+    new "Lunes"
 
     # game/zz_calendar.rpy:98
     old "Tuesday"
-    new ""
+    new "Martes"
 
     # game/zz_calendar.rpy:98
     old "Wednesday"
-    new ""
+    new "Miércoles"
 
     # game/zz_calendar.rpy:98
     old "Thursday"
-    new ""
+    new "Jueves"
 
     # game/zz_calendar.rpy:98
     old "Friday"
-    new ""
+    new "Viernes"
 
     # game/zz_calendar.rpy:98
     old "Saturday"
-    new ""
+    new "Sábado"
 
     # game/zz_calendar.rpy:304
     old "Select a Date"
-    new ""
+    new "Elige una fecha"
 
     # game/zz_calendar.rpy:312
     old "Calendar"
-    new ""
+    new "Calendario"
 
     # game/zz_calendar.rpy:1130
     old "capricorn"
-    new ""
+    new "Capricornio"
 
     # game/zz_calendar.rpy:1130
     old "aquarius"
-    new ""
+    new "Acuario"
 
     # game/zz_calendar.rpy:1130
     old "pisces"
-    new ""
+    new "Piscis"
 
     # game/zz_calendar.rpy:1130
     old "aries"
-    new ""
+    new "Aries"
 
     # game/zz_calendar.rpy:1130
     old "taurus"
-    new ""
+    new "Tauro"
 
     # game/zz_calendar.rpy:1130
     old "gemini"
-    new ""
+    new "Géminis"
 
     # game/zz_calendar.rpy:1130
     old "cancer"
