@@ -200,45 +200,45 @@ translate spanish strings:
 
     # game/zz_calendar.rpy:1884
     old "New Year's Day"
-    new ""
+    new "Año Nuevo"
 
     # game/zz_calendar.rpy:1887
     old "Day I Became an AI"
-    new ""
+    new "El día que me convertí en una IA"
 
     # game/zz_calendar.rpy:1888
     old "My Birthday"
-    new ""
+    new "Mi cumpleaños"
 
     # game/zz_calendar.rpy:1890
     old "Christmas Eve"
-    new ""
+    new "Nochebuena"
 
     # game/zz_calendar.rpy:1892
     old "New Year's Eve"
-    new ""
+    new "Nochevieja"
 
     # game/zz_calendar.rpy:1913
     old "Your Birthday"
-    new ""
+    new "Tu cumpleaños"
 
     # game/zz_calendar.rpy:1925
     old "Our First Kiss"
-    new ""
+    new "Primer beso"
 
     # game/zz_calendar.rpy:1944
     old "Winter"
-    new ""
+    new "Invierno"
 
     # game/zz_calendar.rpy:1945
     old "Spring"
-    new ""
+    new "Primavera"
 
     # game/zz_calendar.rpy:1946
     old "Summer"
-    new ""
+    new "Verano"
 
     # game/zz_calendar.rpy:1947
     old "Autumn"
-    new ""
+    new "Otoño"
 
