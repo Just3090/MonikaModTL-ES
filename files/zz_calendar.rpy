@@ -164,15 +164,15 @@ translate spanish strings:
 
     # game/zz_calendar.rpy:1130
     old "cancer"
-    new ""
+    new "Cáncer"
 
     # game/zz_calendar.rpy:1130
     old "leo"
-    new ""
+    new "Leo"
 
     # game/zz_calendar.rpy:1130
     old "virgo"
-    new ""
+    new "Virgo"
 
     # game/zz_calendar.rpy:1130
     old "libra"
@@ -180,23 +180,23 @@ translate spanish strings:
 
     # game/zz_calendar.rpy:1130
     old "scorpio"
-    new ""
+    new "Escorpio"
 
     # game/zz_calendar.rpy:1130
     old "sagittarius"
-    new ""
+    new "Sagitario"
 
     # game/zz_calendar.rpy:1243
     old "today"
-    new ""
+    new "Hoy"
 
     # game/zz_calendar.rpy:1249
     old "on this date"
-    new ""
+    new "En esta fecha"
 
     # game/zz_calendar.rpy:1261
     old "on"
-    new ""
+    new "En"
 
     # game/zz_calendar.rpy:1884
     old "New Year's Day"
