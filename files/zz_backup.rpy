@@ -232,7 +232,7 @@ translate spanish mas_backups_dont_tell_eefbfce8:
 translate spanish mas_backups_incompat_start_a60c4b04:
 
     # "Hello there!"
-    "¡Hola!"
+    "¡Hola qué tal!"
 
 # game/zz_backup.rpy:873
 translate spanish mas_backups_incompat_start_8694b358:
