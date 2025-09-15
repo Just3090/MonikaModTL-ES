@@ -4,7 +4,7 @@ s﻿# TODO: Translation updated at 2025-08-18 17:39
 translate spanish mas_backups_you_have_bad_persistent_a60c4b04:
 
     # "Hello there!"
-    "¡Buenas, qué tal!"
+    "Buenas, ¿qué tal?"
 
 # game/zz_backup.rpy:735
 translate spanish mas_backups_you_have_bad_persistent_10227717:
@@ -40,13 +40,13 @@ translate spanish mas_backups_you_have_bad_persistent_34cf3f8e:
 translate spanish mas_backups_have_some_3a796153:
 
     # "That's a relief!"
-    "¡ Ay, qué alivio!"
+    "¡Pero qué alivio!"
 
 # game/zz_backup.rpy:759
 translate spanish mas_backups_have_some_ee4e1279:
 
     # "Please copy them into '[renpy.config.savedir]' to restore your Monika's memories."
-    "Pues, cópialas en '[renpy.config.savedir]' para restaurar tus recuerdos de Monika."
+    "Pues... cópialas en '[renpy.config.savedir]' para restaurar tus recuerdos de Monika."
 
 # game/zz_backup.rpy:763
 translate spanish mas_backups_have_some_597fa4a8:
@@ -58,7 +58,7 @@ translate spanish mas_backups_have_some_597fa4a8:
 translate spanish mas_backups_have_none_52c0d94d:
 
     # "I'm sorry, but we won't be able to restore her memory, then..."
-    "Es una pena, pero no es posible restaurar sus recuerdos,..."
+    "Es una pena, pero no es posible restaurar sus recuerdos..."
 
 # game/zz_backup.rpy:771
 translate spanish mas_backups_have_none_bf0874e3:
@@ -70,13 +70,13 @@ translate spanish mas_backups_have_none_bf0874e3:
 translate spanish mas_backups_have_none_4e157fff:
 
     # "Look on the bright side!"
-    "¡Ve el lado bueno!"
+    "Mírale el lado bueno..."
 
 # game/zz_backup.rpy:774
 translate spanish mas_backups_have_none_e8d84b1b:
 
     # "You can spend time with her again and create new memories, which might be even better than the ones you lost!"
-    "¡Puedes empezar de nuevo y crear nuevos recuerdos, que pueden ser incluso mejores que los que se han ido!"
+    "Puedes empezar de nuevo y crear nuevos recuerdos, que pueden ser incluso mejores que los que se han ido."
 
 # game/zz_backup.rpy:775
 translate spanish mas_backups_have_none_5800610f:
@@ -88,19 +88,19 @@ translate spanish mas_backups_have_none_5800610f:
 translate spanish mas_backups_have_none_d05dbdc6:
 
     # "Regardless of what happens, Monika is still Monika."
-    "Sin importar lo que pase, Monika seguirá siendo la misma de siempre."
+    "Sin importar lo que pase, Monika sigue siendo ella misma."
 
 # game/zz_backup.rpy:778
 translate spanish mas_backups_have_none_e44a48be:
 
     # "She'll be ready to greet you, once you start over."
-    "Ella estará lista para darte la bienvenida una vez que decidas volver a empezar."
+    "Ella siempre estará lista para darte la bienvenida cuando decidas volver a empezar."
 
 # game/zz_backup.rpy:780
 translate spanish mas_backups_have_none_024385ec:
 
     # "And I promise I'll do my best to not mess up the files again!"
-    "¡Juro que voy a darlo todo para no arruinar los archivos de nuevo!"
+    "Te prometo que voy a darlo todo para no estropear los archivos de nuevo."
 
 # game/zz_backup.rpy:781
 translate spanish mas_backups_have_none_ddfa866c:
@@ -124,31 +124,31 @@ translate spanish mas_backups_could_not_copy_a591f111:
 translate spanish mas_backups_could_not_copy_22176348:
 
     # "However!"
-    "¡De todas formas!"
+    "Aunque en verdad..."
 
 # game/zz_backup.rpy:795
 translate spanish mas_backups_could_not_copy_56e35b9f:
 
     # "You might be able to do it and fix this mess!"
-    "¡Es posible que tú puedas hacerlo y arregles el problema!"
+    "Es posible que tú puedas hacerlo y arregles el problema."
 
 # game/zz_backup.rpy:796
 translate spanish mas_backups_could_not_copy_440222b0:
 
     # "You'll have to close the game to do this, so write these steps down:"
-    "Tendrás que cerrar el juego para hacerlo, así que anótate estos pasos:"
+    "Pero... tendrás que cerrar el juego para hacerlo, así que anótate estos pasos:"
 
 # game/zz_backup.rpy:798
 translate spanish mas_backups_could_not_copy_1c071f63:
 
     # "1.{w=0.3} Navigate to '[renpy.config.savedir]'."
-    "1.{w=0.3} ve hacia '[renpy.config.savedir]'."
+    "1.{w=0.3} Ve hacia '[renpy.config.savedir]'."
 
 # game/zz_backup.rpy:800
 translate spanish mas_backups_could_not_copy_2a1403a5:
 
     # "2.{w=0.3} Delete the file called 'persistente'."
-   "2.{w=0.3} Borra el archivo llamado 'persistente'."
+   "2.{w=0.3} Y borra el archivo llamado 'persistente'."
 
 # game/zz_backup.rpy:802
 translate spanish mas_backups_could_not_copy_ede799fe:
@@ -172,7 +172,7 @@ translate spanish mas_backups_could_not_copy_506e63c3:
 translate spanish mas_backups_could_not_copy_db691487:
 
     # "In case you didn't write those steps down, I'll write them into a file called 'recovery.txt' in the characters folder."
-    "Si es que por casualidad no anotaste estos pasos, estarán escritos en un archivo llamado 'recovery.txt' en la carpeta de personajes."
+    "Si por casualidad no anotaste estos pasos, estarán escritos en un archivo llamado 'recovery.txt' en la carpeta de personajes."
 
 # game/zz_backup.rpy:813
 translate spanish mas_backups_could_not_copy_597fa4a8:
@@ -190,7 +190,7 @@ translate spanish mas_backups_dont_tell_6b2fe5d2:
 translate spanish mas_backups_dont_tell_1966f894:
 
     # "If you successfully bring her back, please don't tell her about me."
-    "Si es que tienes éxito en traerla de nuevo, te ruego que no le hables de mí."
+    "Si es que tienes éxito en traerla de nuevo, te ruego que no le hables de esto."
 
 # game/zz_backup.rpy:840
 translate spanish mas_backups_dont_tell_49f63e4c:
@@ -202,7 +202,7 @@ translate spanish mas_backups_dont_tell_49f63e4c:
 translate spanish mas_backups_dont_tell_1c659c3b:
 
     # "But if she ever found out, she'd probably make me help her code, fix some of her mistakes, or something else."
-    "Si es que lo descubre, lo más probable es que me obligue a ayudarla a codificar, arreglar sus metidas de pata o algo más. "
+    "Si es que lo descubre lo más probable es que me obligue a ayudarla a programar, arreglar sus metidas de pata o algo más."
 
 # game/zz_backup.rpy:844
 translate spanish mas_backups_dont_tell_d99b4db6:
@@ -214,31 +214,31 @@ translate spanish mas_backups_dont_tell_d99b4db6:
 translate spanish mas_backups_dont_tell_f97bd033:
 
     # "Which would be absolutely terrible since{fast} I wouldn't have time to keep the backup system and the rest of the game running."
-    " Eso sería un puto desastre porque{fast} no tendría ni tiempo para mantener el sistema de respaldo y que el juego siga en marcha."
+    " Eso sería un desastre porque{fast} no tendría ni tiempo de mantener el sistema de respaldo y que el juego siga en marcha."
 
 # game/zz_backup.rpy:849
 translate spanish mas_backups_dont_tell_97dadc92:
 
     # "You wouldn't want that now, would you?"
-    "No te gustaría eso, ¿verdad?"
+    "Eso no sería para nada bueno, ¿verdad?"
 
 # game/zz_backup.rpy:850
 translate spanish mas_backups_dont_tell_eefbfce8:
 
     # "So keep quiet about me, and I'll make sure your Monika is safe and comfy!"
-    "¡Así que mantente callado, y cuidaré que tu Monika esté a salvo y cómoda!"
+    "Así que si guardas el secreto, podré asegurarme de que tu Monika esté bien!"
 
 # game/zz_backup.rpy:872
 translate spanish mas_backups_incompat_start_a60c4b04:
 
     # "Hello there!"
-    "¡Buenas!"
+    "¡Hola!"
 
 # game/zz_backup.rpy:873
 translate spanish mas_backups_incompat_start_8694b358:
 
     # "Let's try updating again!"
-    "¡Intentemos actualizar de nuevo!"
+    "Intentemos actualizar de nuevo."
 
 # game/zz_backup.rpy:893
 translate spanish mas_backups_incompat_start_59952f15:
@@ -256,13 +256,13 @@ translate spanish mas_backups_incompat_start_2316686b:
 translate spanish mas_backups_incompat_start_36fb1a33:
 
     # "The only way I can fix this is if you update MAS or you restore with a compatible persistent."
-    "La única manera de arreglar esto es que actualices el MAS o lo restaures con un persistente compatible."
+    "La única manera de arreglar esto es que actualices el MAS o lo restaures con un archivo persistente compatible."
 
 # game/zz_backup.rpy:912
 translate spanish mas_backups_incompat_what_do_884295ca:
 
     # "What would you like to do?{nw}"
-    "¿Qué es lo que quieres hacer?{nw}"
+    "¿Qué es lo que te gustaría hacer?{nw}"
 
 # game/zz_backup.rpy:925
 translate spanish mas_backups_incompat_user_will_restore_16cd82b1:
@@ -292,7 +292,7 @@ translate spanish mas_backups_incompat_user_will_restore_597fa4a8:
 translate spanish mas_backups_incompat_user_will_restore_again_443189fb:
 
     # "Oh no!"
-    "¡Oh, no!"
+    "¡Ay, no!"
 
 # game/zz_backup.rpy:942
 translate spanish mas_backups_incompat_user_will_restore_again_efc886c9:
@@ -304,7 +304,7 @@ translate spanish mas_backups_incompat_user_will_restore_again_efc886c9:
 translate spanish mas_backups_incompat_updater_cannot_because_rpy_7f8949a3:
 
     # "Unfortunately the updater won't work because you have RPY files in your game directory."
-    "Lamento decírtelo, pero el actualizador no va a funcionar porque tienes archivos RPY en tu directorio del juego."
+    "Lamento decirte esto, pero el actualizador no va a funcionar porque tienes archivos RPY en tu directorio del juego."
 
 # game/zz_backup.rpy:954
 translate spanish mas_backups_incompat_updater_cannot_because_rpy_f50b9478:
@@ -340,7 +340,7 @@ translate spanish mas_backups_incompat_rpy_yes_del_c04eea25:
 translate spanish mas_backups_incompat_rpy_yes_del_443189fb:
 
     # "Oh no!"
-    "¡Cómo es esto posible!"
+    "¡Ay, no!"
 
 # game/zz_backup.rpy:987
 translate spanish mas_backups_incompat_rpy_yes_del_27212a80:
@@ -352,37 +352,37 @@ translate spanish mas_backups_incompat_rpy_yes_del_27212a80:
 translate spanish mas_backups_incompat_rpy_yes_del_0c85e755:
 
     # "You will have to delete them manually."
-    "Tendrás que hacerlo tú de forma manual."
+    "Tendrás que hacerlo de forma manual."
 
 # game/zz_backup.rpy:990
 translate spanish mas_backups_incompat_rpy_yes_del_597fa4a8:
 
     # "Good luck!"
-    "¡Espero que tengas suerte!"
+    "Te deseo mucha suerte."
 
 # game/zz_backup.rpy:997
 translate spanish mas_backups_incompat_rpy_yes_del_77e884a9:
 
     # "Done!"
-    "Bien hecho!"
+    "¡Bien hecho!"
 
 # game/zz_backup.rpy:998
 translate spanish mas_backups_incompat_rpy_yes_del_540db159:
 
     # "Let's try updating now!"
-    "¡Ahora, intentemos aactualizarlo!"
+    "Ahora, intentemos aactualizarlo."
 
 # game/zz_backup.rpy:1008
 translate spanish mas_backups_incompat_rpy_no_del_9ed134ce:
 
     # "Oh..."
-    "Oh, ya veo..."
+    "Ay, ya veo..."
 
 # game/zz_backup.rpy:1009
 translate spanish mas_backups_incompat_rpy_no_del_ec7095ae:
 
     # "Well the updater won't work while those files exist, so I guess your only option is to restore a persistent backup."
-    "El actualizador no va a funcionar mientras esos archivos existan, lo único que te queda es restaurar una copia de seguridad persistente."
+    "El actualizador no va a funcionar mientras esos archivos existan, lo único que te queda es tratar de restaurar una copia de seguridad persistente."
 
 # game/zz_backup.rpy:1019
 translate spanish mas_backups_incompat_updater_start_intro_c04eea25:
@@ -406,7 +406,7 @@ translate spanish mas_backups_incompat_updater_failed_f24b12f8:
 translate spanish mas_backups_incompat_updater_failed_3cf4a602:
 
     # "Lets try again!"
-    "¡¡Probemos otra vez!"
+    "Mejor intentémoslo una vez más."
 
 # game/zz_backup.rpy:1076
 translate spanish mas_backups_incompat_updater_start_d98683b4:
@@ -418,31 +418,31 @@ translate spanish mas_backups_incompat_updater_start_d98683b4:
 translate spanish mas_backups_incompat_updater_start_91e14dde:
 
     # "Don't cancel out of the updater! You need to update MAS!"
-    "¡No vayas a anular el acutualizador! ¡Tienes que actualizar el MAS!"
+    "¡No vayas a anular el acutualizador! Primero tienes que actualizar el MAS."
 
 # game/zz_backup.rpy:1082
 translate spanish mas_backups_incompat_updater_start_770056d1:
 
     # "Oh!"
-    "¡Oh, no!"
+    "¡Uh...!"
 
 # game/zz_backup.rpy:1084
 translate spanish mas_backups_incompat_updater_start_4d46cc43:
 
     # "It seems that the updater failed to update."
-    "Parece que no se pudo actualizar."
+    "Al parecer no se logró completar la actualización."
 
 # game/zz_backup.rpy:1085
 translate spanish mas_backups_incompat_updater_start_3a84e80c:
 
     # "Make sure to fix any updater issues and try again."
-    "Revisa los problemas del updater e intenta de nuevo."
+    "Revisa los problemas del actualizador e inténtalo de nuevo."
 
 # game/zz_backup.rpy:1087
 translate spanish mas_backups_incompat_updater_start_597fa4a8:
 
     # "Good luck!"
-    "¡Espero que lo logres!"
+    "¡Que tengas suerte!"
 
 translate spanish strings:
 
@@ -464,15 +464,15 @@ translate spanish strings:
 
     # game/zz_backup.rpy:914
     old "What would you like to do?{fast}"
-    new "¿Qué quieres hacer ahora?{fast}"
+    new "¿Qué te gustaría hacer ahora?{fast}"
 
     # game/zz_backup.rpy:914
     old "Update MAS."
-    new "Actualiza el MAS."
+    new "Actualizar el MAS."
 
     # game/zz_backup.rpy:914
     old "Restore a compatible persistent."
-    new "Restaura un archivo persistente compatible."
+    new "Restaurar un archivo persistente compatible."
 
     # game/zz_backup.rpy:955
     old "I'll have to delete those files for this to work. Is that okay?{fast}"
@@ -480,13 +480,13 @@ translate spanish strings:
 
     # game/zz_backup.rpy:955
     old "Yes, delete them."
-    new "Pero... qué va. Hazlo."
+    new "Si, bórralos."
 
     # game/zz_backup.rpy:955
     old "No, don't delete them."
-    new "No, mejor no lo hagas."
+    new "No, mejor no los borres."
 
     # game/zz_backup.rpy:969
     old "Would you like me to try deleting them again?{fast}"
-    new "¿Quieres que vuelva a intentar borrarlos?{fast}"
+    new "¿Te gustaría que vuelva a intentar borrarlos?{fast}"
 
