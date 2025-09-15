@@ -4,13 +4,13 @@
 translate spanish mas_show_calendar_detail_9c5ff161:
 
     # m 1eub "Oh, you want to take another look at that pretty calendar hanging on the wall, [player]?"
-    m 1eub "Vaya... ¿Quieres volver a mirar ese calendario tan chulo que está en la pared, [player]?"
+    m 1eub "Vaya... ¿quieres volver a mirar ese calendario tan chulo que está en la pared, [player]?"
 
 # game/zz_calendar.rpy:2165
 translate spanish mas_show_calendar_detail_6b069f8b:
 
     # m 3hua "It helps me keep track of important events, like your birthday, ehehe~"
-    m 3hua "Me es muy útil para llevar la cuenta de los sucesos importantes, como tu cumpleaños. Je, je, je"
+    m 3hua "Me es muy útil para llevar cuenta de los sucesos importantes, como tu cumpleaños. Je, je, je"
 
 # game/zz_calendar.rpy:2167
 translate spanish mas_show_calendar_detail_72782367:
