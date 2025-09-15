@@ -10,7 +10,7 @@ translate spanish monika_introduce_nou_house_rules_7813486e:
 translate spanish monika_introduce_nou_house_rules_4b2fe472:
 
     # m 3eua "If you ever feel like those official rules aren't fun enough...{w=0.5}{nw}"
-    m 3eua "Si alguna vez sientes que esas reglas oficiales no molan mucho...{w=0.5}{nw}"
+    m 3eua "Si alguna vez sientes que esas reglas oficiales no te molan mucho...{w=0.5}{nw}"
 
 # game/zz_cardgames.rpy:3970
 translate spanish monika_introduce_nou_house_rules_e688262c:
@@ -40,13 +40,13 @@ translate spanish monika_change_nou_house_rules_0b54dfcd:
 translate spanish monika_change_nou_house_rules_menu_loop_8f323283:
 
     # m "Would you like to change anything else?" nointeract
-    m "¿Quiere cambiar alguna otra cosa?" nointeract
+    m "¿Quieres cambiar alguna otra cosa?" nointeract
 
 # game/zz_cardgames.rpy:4064
 translate spanish monika_change_nou_house_rules_menu_loop_1630bfdc:
 
     # m "What kind of rule would you like to change?" nointeract
-    m "" nointeract
+    m "¿Qué tipo de regla te gustaría cambiar?" nointeract
 
 # game/zz_cardgames.rpy:4081
 translate spanish monika_change_nou_house_rules_menu_loop_f818ab76:
@@ -76,7 +76,7 @@ translate spanish monika_change_nou_house_rules_menu_loop_7d35bf3c:
 translate spanish monika_change_nou_house_rules_menu_loop_57120ce2:
 
     # m 1hub "Ahaha~ I'm just kidding!"
-    m 1hub "¡Ja, ja, ja! ¡Sólo te estoy vacilando!"
+    m 1hub "¡Ja, ja, ja! Tranqui, te estoy vacilando."
 
 # game/zz_cardgames.rpy:4100
 translate spanish monika_change_nou_house_rules_menu_loop_5330895f:
@@ -106,7 +106,7 @@ translate spanish monika_change_nou_house_rules_menu_loop_488d6925:
 translate spanish monika_change_nou_house_rules_menu_loop_f22f8544:
 
     # m 3eub "Okay! Then settled!"
-    m 3eub "¡Vale! ¡Está hecho!"
+    m 3eub "Está bien, hecho."
 
 # game/zz_cardgames.rpy:4127
 translate spanish monika_change_nou_house_rules_menu_loop_300eb037:
@@ -124,7 +124,7 @@ translate spanish monika_change_nou_house_rules_menu_loop_44cfa94c:
 translate spanish monika_change_nou_house_rules_menu_loop_9389cf04:
 
     # m 3eud "If you want to play without points, just choose '0'."
-    m 3eud "Pues... si prefieres jugar sin contar los puntos, elige '0'."
+    m 3eud "Pues... si prefieres jugar sin contar los puntos, sólo elige '0'."
 
 # game/zz_cardgames.rpy:4130
 translate spanish monika_change_nou_house_rules_menu_loop_bf352209:
@@ -148,7 +148,7 @@ translate spanish monika_change_nou_house_rules_menu_loop_bd15364d:
 translate spanish monika_change_nou_house_rules_menu_loop_d40ce0dd:
 
     # extend 4tsb "and the last unlucky person will have to draw all those cards."
-    extend 4tsb "y el último infeliz tendrá que robar todas esas cartas."
+    extend 4tsb "y el último desafortunado tendrá que robar todas esas cartas."
 
 # game/zz_cardgames.rpy:4134
 translate spanish monika_change_nou_house_rules_menu_loop_513fbb20:
@@ -184,7 +184,7 @@ translate spanish monika_change_nou_house_rules_menu_loop_55e6a42e:
 translate spanish monika_change_nou_house_rules_menu_loop_9bd084e3:
 
     # m 1eud "The Reflect Chaos rule makes the game more {w=0.2}{nw}"
-    m 1eud "La regla Caos de Contrarrestar hace que el juego sea más {w=0.2}{nw}"
+    m 1eud "La regla de Reflejo de Caos hace que el juego sea más {w=0.2}{nw}"
 
 # game/zz_cardgames.rpy:4140
 translate spanish monika_change_nou_house_rules_menu_loop_e5ace509:
@@ -220,7 +220,7 @@ translate spanish monika_change_nou_house_rules_menu_loop_f36b3b3d:
 translate spanish monika_change_nou_house_rules_no_change_7c5034f5:
 
     # m 1eua "Oh, alright."
-    m 1eua "Oh, de acuerdo."
+    m 1eua "Vale, de acuerdo."
 
 # game/zz_cardgames.rpy:4163
 translate spanish monika_change_nou_house_rules_no_change_86d08601:
@@ -292,7 +292,7 @@ translate spanish monika_change_nou_house_rules_change_points_to_win_loop_e5ba87
 translate spanish monika_change_nou_house_rules_change_points_to_win_loop_1df896c8:
 
     # m 1eub "Oh, alright!"
-    m 1eub "¡Oh, de acuerdo!"
+    m 1eub "¡Ah, vale!"
 
 # game/zz_cardgames.rpy:4219
 translate spanish monika_change_nou_house_rules_change_points_to_win_loop_0496a328:
@@ -304,7 +304,7 @@ translate spanish monika_change_nou_house_rules_change_points_to_win_loop_0496a3
 translate spanish monika_change_nou_house_rules_change_points_to_win_loop_09860223:
 
     # m 2eka "Oh it's too much I think..."
-    m 2eka "Oh, creo que es demasiado..."
+    m 2eka "Uh, creo que es demasiado..."
 
 # game/zz_cardgames.rpy:4223
 translate spanish monika_change_nou_house_rules_change_points_to_win_loop_47430808:
