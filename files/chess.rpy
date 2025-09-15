@@ -40,7 +40,7 @@ translate spanish game_chess_load_check_b01706c4:
 translate spanish mas_chess_remenu_0da28271:
 
     # m "How would you like to play?[('{fast}' if loopback else '')]" nointeract
-    m "¿Cómo quieres juegar?[('{fast}' if loopback else '')]" nointeract
+    m "¿Cómo te gustaría jugar?[('{fast}' if loopback else '')]" nointeract
 
 # game/chess.rpy:947
 translate spanish mas_chess_remenu_6b6b37ac:
@@ -64,13 +64,13 @@ translate spanish mas_chess_remenu_e87a6bf1:
 translate spanish mas_chess_remenu_441eccc5:
 
     # extend 1eua "Naturally, {i}Normal Chess{/i} means standard chess."
-    extend 1eua ""
+    extend 1eua "Como es lógico, el Ajedrez Normal se refiere al ajedrez clásico."
 
 # game/chess.rpy:970
 translate spanish mas_chess_remenu_2119bcd1:
 
     # m 3eua "Then there's {i}Randomized Chess{/i}, a mode based on {i}Really Bad Chess{/i}."
-    m 3eua "Luego, también está el"
+    m 3eua "Luego, también está el Ajedrez Aleatorio que se basa en"
 
 # game/chess.rpy:971
 translate spanish mas_chess_remenu_8bf8baa4:
@@ -82,7 +82,7 @@ translate spanish mas_chess_remenu_8bf8baa4:
 translate spanish mas_chess_remenu_a701c0b9:
 
     # m 1eua "Alternatively, there's a more fair random chess mode called {i}Chess 960{/i}, also known as {i}Fischer Random Chess{/i}."
-    m 1eua ""
+    m 1eua "O sino también tienes el Chess 960, que viene a ser el Ajedrez Aleatorio de Fischer."
 
 # game/chess.rpy:973
 translate spanish mas_chess_remenu_4fe52604:
@@ -100,13 +100,13 @@ translate spanish mas_chess_remenu_0a2b0e5d:
 translate spanish mas_chess_remenu_dada6bbd:
 
     # m 1eua "{i}Chess 960{/i} allows players to avoid the complex opening theory while still testing their understanding of chess."
-    m 1eua ""
+    m 1eua "Este modo permite a los jugadores saltarse la complicada teoría de aperturas, pero aún así seguir probando lo que saben de ajedrez "
 
 # game/chess.rpy:976
 translate spanish mas_chess_remenu_f696f215:
 
     # m 1etu "So which mode do you prefer? {w=0.3}{nw}"
-    m 1etu "Pues bien... ¿qué modo quieres jugar? {w=0.3}{nw}"
+    m 1etu "Pues bien... ¿qué modo te gustaría jugar? {w=0.3}{nw}"
 
 # game/chess.rpy:977
 translate spanish mas_chess_remenu_278fdfc1:
@@ -172,13 +172,13 @@ translate spanish mas_chess_start_chess_0234ec52:
 translate spanish mas_chess_start_chess_77e4d9e7:
 
     # m 1eub "Alright, but even if things aren't going too well, it's more fun to play to the end!"
-    m 1eub "Vale, aunque la cosa no vaya muy bien ... ¡la gracia es seguir hasta el final!"
+    m 1eub "Vale, aunque la cosa no vaya muy bien... la gracia está en seguir hasta el final."
 
 # game/chess.rpy:1078
 translate spanish mas_chess_start_chess_6586871a:
 
     # m 3eka "In the end, I'm just happy to be spending time with you~"
-    m 3eka "Al final, lo importante es difrutar el tiempo juntos."
+    m 3eka "Al final, lo importante es difrutar el tiempo que pasamos juntos."
 
 # game/chess.rpy:1079
 translate spanish mas_chess_start_chess_fe9c0937:
@@ -244,103 +244,103 @@ translate spanish mas_chess_start_chess_703c118d:
 translate spanish mas_chess_start_chess_bfd152d9:
 
     # extend 3hub "That's amazing!"
-    extend 3hub ""
+    extend 3hub "¡Pero qué pasada!"
 
 # game/chess.rpy:1153
 translate spanish mas_chess_start_chess_30b0216b:
 
     # m 1hua "You only undid once. {w=0.2}{nw}"
-    m 1hua ""
+    m 1hua "Sólo deshiciste un movimiento. {w=0.2}{nw}"
 
 # game/chess.rpy:1154
 translate spanish mas_chess_start_chess_4fb0b0f8:
 
     # extend 3hub "Great job!"
-    extend 3hub ""
+    extend 3hub "¡Bien hecho!"
 
 # game/chess.rpy:1157
 translate spanish mas_chess_start_chess_231fdb4f:
 
     # m 1hua "You only undid [undo_count] times too, great job."
-    m 1hua ""
+    m 1hua "Sólo has desecho [undo_count] movimientos, excelente trabajo."
 
 # game/chess.rpy:1160
 translate spanish mas_chess_start_chess_436c0307:
 
     # m 1eua "[undo_count] undos, not bad at all. If we keep practicing together, I'm sure we can lower that~"
-    m 1eua ""
+    m 1eua "[undo_count] jugadas deshechas, ni tan mal. Si seguimos dándole, ya verás cómo lo dejamos más bajo."
 
 # game/chess.rpy:1163
 translate spanish mas_chess_start_chess_f10da59f:
 
     # m 1eka "You undid [undo_count] moves though.{w=0.3} {nw}"
-    m 1eka ""
+    m 1eka "Eso sí, deshiciste [undo_count] jugadas.{w=0.3} {nw}"
 
 # game/chess.rpy:1164
 translate spanish mas_chess_start_chess_ca6d958e:
 
     # extend 3eua "But I'm sure if we keep practicing, we can get that number lower."
-    extend 3eua ""
+    extend 3eua "Pero te aseguro que si seguimos practicando, seguro que bajamos ese número."
 
 # game/chess.rpy:1166
 translate spanish mas_chess_start_chess_3e161ada:
 
     # m 3hua "[renpy.substitute(random.choice(player_win_quips))]"
-    m 3hua ""
+    m 3hua "[renpy.substitute(random.choice(player_win_quips))]"
 
 # game/chess.rpy:1169
 translate spanish mas_chess_start_chess_ba77caa8:
 
     # m 3eub "Great job, you won!"
-    m 3eub ""
+    m 3eub "¡Enhorabuena, has ganado!"
 
 # game/chess.rpy:1170
 translate spanish mas_chess_start_chess_43d2d26f:
 
     # m 3hub "[renpy.substitute(random.choice(player_win_quips))]"
-    m 3hub ""
+    m 3hub "[renpy.substitute(random.choice(player_win_quips))]"
 
 # game/chess.rpy:1172
 translate spanish mas_chess_start_chess_fe9c0937_2:
 
     # m 1eua "Anyway..."
-    m 1eua ""
+    m 1eua "Aunque..."
 
 # game/chess.rpy:1187
 translate spanish mas_chess_start_chess_673bb300:
 
     # m 1eua "Would you like to save this game?{nw}"
-    m 1eua ""
+    m 1eua "¿Te gustaría guardar esta partida?{nw}"
 
 # game/chess.rpy:1190
 translate spanish mas_chess_start_chess_922efe72:
 
     # m "Would you like to save this game?{fast}" nointeract
-    m "" nointeract
+    m "¿Te gustaría guardar esta partida?{fast}" nointeract
 
 # game/chess.rpy:1201
 translate spanish mas_chess_play_again_ask_52b51855:
 
     # m 1eua "Would you like to play again?{nw}"
-    m 1eua ""
+    m 1eua "¿Quieres jugar de nuevo?{nw}"
 
 # game/chess.rpy:1204
 translate spanish mas_chess_play_again_ask_32d0248c:
 
     # m "Would you like to play again?{fast}" nointeract
-    m "" nointeract
+    m "¿Quieres jugar de nuevo?{fast}" nointeract
 
 # game/chess.rpy:1218
 translate spanish mas_chess_play_again_ask_ea210635:
 
     # m 1eua "Alright, let's play again soon."
-    m 1eua ""
+    m 1eua "Vale, jueguemos otra pronto."
 
 # game/chess.rpy:1229
 translate spanish mas_chess_draw_lots_47608234:
 
     # m 2eub "Oh look, I drew black![lets_begin]"
-    m 2eub ""
+    m 2eub "¡Madre mía, me ha tocado negro![lets_begin]"
 
 # game/chess.rpy:1232
 translate spanish mas_chess_draw_lots_72a19603:
