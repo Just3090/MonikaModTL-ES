@@ -4,13 +4,13 @@ translate spanish strings:
 
     # game/zz_hotkey_buttons.rpy:138
     old "Extra"
-    new ""
+    new "Extra"
 
     # game/zz_hotkey_buttons.rpy:163
     old "Pause"
-    new ""
+    new "Pausa"
 
     # game/zz_hotkey_buttons.rpy:168
     old "Time"
-    new ""
+    new "Tiempo"
 
