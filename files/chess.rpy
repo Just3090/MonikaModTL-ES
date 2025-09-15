@@ -1,70 +1,70 @@
-﻿# TODO: Translation updated at 2025-08-18 17:39
+a﻿# TODO: Translation updated at 2025-08-18 17:39
 
 # game/chess.rpy:716
 translate spanish game_chess_f85b6700:
 
     # m "Let's continue our unfinished game."
-    m ""
+    m "Venga, continuemos con el juego que no hemos terminado."
 
 # game/chess.rpy:782
 translate spanish game_chess_3507e2a3:
 
     # m 2wfw "[player]!"
-    m 2wfw ""
+    m 2wfw "¡[player]!"
 
 # game/chess.rpy:783
 translate spanish game_chess_5e027179:
 
     # m 2wfx "You removed the save again."
-    m 2wfx ""
+    m 2wfx "Has borrado la partida de nuevo.-"
 
 # game/chess.rpy:785
 translate spanish game_chess_8bc6286c:
 
     # m 2rfc "Let's just play chess at another time, then."
-    m 2rfc ""
+    m 2rfc "Mejor juguemos ajedrez en otro momento."
 
 # game/chess.rpy:849
 translate spanish game_chess_9be668f3:
 
     # m 1eua "We still have an unfinished game in progress."
-    m 1eua ""
+    m 1eua "Aún nos queda una partida sin terminar."
 
 # game/chess.rpy:854
 translate spanish game_chess_load_check_b01706c4:
 
     # m 1efb "Get ready!"
-    m 1efb ""
+    m 1efb "¡Venga, prepárate!"
 
 # game/chess.rpy:937
 translate spanish mas_chess_remenu_0da28271:
 
     # m "How would you like to play?[('{fast}' if loopback else '')]" nointeract
-    m "" nointeract
+    m "¿Cómo quieres juegar?[('{fast}' if loopback else '')]" nointeract
 
 # game/chess.rpy:947
 translate spanish mas_chess_remenu_6b6b37ac:
 
     # m 1ekc "...Alright, [player].{w=0.3} I was really looking forward to playing with you."
-    m 1ekc ""
+    m 1ekc "...Vale, [player].{w=0.3} me hacía mucha ilusión jugar contigo."
 
 # game/chess.rpy:948
 translate spanish mas_chess_remenu_51dbe566:
 
     # m 1eka "We'll play another time though, right?"
-    m 1eka ""
+    m 1eka "Ya echaremos otra partida otro día, ¿vale?"
 
 # game/chess.rpy:968
 translate spanish mas_chess_remenu_e87a6bf1:
 
     # m 1eub "Sure! {w=0.2}{nw}"
-    m 1eub ""
+    m 1eub "¡Tenlo por seguro! {w=0.2}{nw}"
 
 # game/chess.rpy:969
 translate spanish mas_chess_remenu_441eccc5:
 
     # extend 1eua "Naturally, {i}Normal Chess{/i} means standard chess."
-    extend 1eua ""
+    extend 1eua "Claro que {i}el ajedrez clásico{/i} se refiere al ajedrez standard."
 
 # game/chess.rpy:970
 translate spanish mas_chess_remenu_2119bcd1:
