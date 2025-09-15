@@ -418,7 +418,7 @@ translate spanish mas_backups_incompat_updater_start_d98683b4:
 translate spanish mas_backups_incompat_updater_start_91e14dde:
 
     # "Don't cancel out of the updater! You need to update MAS!"
-    "¡No vayas a anular el acutualizador! Primero tienes que actualizar el MAS."
+    "¡No vayas a anular el actualizador! Primero tienes que actualizar el MAS."
 
 # game/zz_backup.rpy:1082
 translate spanish mas_backups_incompat_updater_start_770056d1:
