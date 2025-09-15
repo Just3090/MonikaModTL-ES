@@ -64,19 +64,19 @@ translate spanish mas_chess_remenu_e87a6bf1:
 translate spanish mas_chess_remenu_441eccc5:
 
     # extend 1eua "Naturally, {i}Normal Chess{/i} means standard chess."
-    extend 1eua "Claro que {i}el ajedrez clásico{/i} se refiere al ajedrez standard."
+    extend 1eua ""
 
 # game/chess.rpy:970
 translate spanish mas_chess_remenu_2119bcd1:
 
     # m 3eua "Then there's {i}Randomized Chess{/i}, a mode based on {i}Really Bad Chess{/i}."
-    m 3eua ""
+    m 3eua "Luego, también está el"
 
 # game/chess.rpy:971
 translate spanish mas_chess_remenu_8bf8baa4:
 
     # m 3eub "We get completely random pieces which adds the factor of luck to make it fun for players of any skill level."
-    m 3eub ""
+    m 3eub "Te tocan piezas al azar, las cuales añaden un factor de suerte que lo hace divertido para cualquiera sin importar la habilidad."
 
 # game/chess.rpy:972
 translate spanish mas_chess_remenu_a701c0b9:
@@ -88,13 +88,13 @@ translate spanish mas_chess_remenu_a701c0b9:
 translate spanish mas_chess_remenu_4fe52604:
 
     # m 3eud "In this mode, the pieces in the back row are randomly shuffled while ensuring the bishops are placed on opposite color squares and the king is placed between two rooks."
-    m 3eud ""
+    m 3eud "Aquí las piezas de la fila de atrás se colocan al azar, pero presta atención porque los alfiles van en casillas de distinto color y el rey siempre entre las torres."
 
 # game/chess.rpy:974
 translate spanish mas_chess_remenu_0a2b0e5d:
 
     # m 4hua "There's 960 possible starting positions, so it was called {i}Chess 960{/i}."
-    m 4hua ""
+    m 4hua "Hay exactamente 960 posiciones iniciales posibles, por eso se llama {i}{/i}."
 
 # game/chess.rpy:975
 translate spanish mas_chess_remenu_dada6bbd:
@@ -106,139 +106,139 @@ translate spanish mas_chess_remenu_dada6bbd:
 translate spanish mas_chess_remenu_f696f215:
 
     # m 1etu "So which mode do you prefer? {w=0.3}{nw}"
-    m 1etu ""
+    m 1etu "Pues bien... ¿qué modo quieres jugar? {w=0.3}{nw}"
 
 # game/chess.rpy:977
 translate spanish mas_chess_remenu_278fdfc1:
 
     # extend 1hub "Ahaha~"
-    extend 1hub ""
+    extend 1hub "Ja, ja, ja."
 
 # game/chess.rpy:988
 translate spanish mas_chess_remenu_1e07b804:
 
     # m 1eua "If we play with casual rules, we just won't count stalemates as draws.{w=0.2} {nw}"
-    m 1eua ""
+    m 1eua "Si jugamos con reglas casuales, los empates por rey ahogado no se cuentan.{w=0.2} {nw}"
 
 # game/chess.rpy:989
 translate spanish mas_chess_remenu_1c1f75b5:
 
     # extend 3eub "Essentially, the player who is not trapped is declared the winner."
-    extend 3eub ""
+    extend 3eub "Al final, el que no queda atrapado gana."
 
 # game/chess.rpy:1068
 translate spanish mas_chess_start_chess_0cc24a7f:
 
     # m 1ekc "Don't give up so easily..."
-    m 1ekc ""
+    m 1ekc "No tires la toalla tan rápido..."
 
 # game/chess.rpy:1069
 translate spanish mas_chess_start_chess_6f1757c0:
 
     # m 1eka "I'm sure if you keep trying, you can beat me."
-    m 1eka ""
+    m 1eka "Te aseguro que si sigues intentándolo seguro que me ganas."
 
 # game/chess.rpy:1070
 translate spanish mas_chess_start_chess_f15775ec:
 
     # m 1ekc "..."
-    m 1ekc ""
+    m 1ekc "..."
 
 # game/chess.rpy:1071
 translate spanish mas_chess_start_chess_4fc7f6cc:
 
     # m 1eka "I hope you don't get frustrated when you play with me."
-    m 1eka ""
+    m 1eka "Espero que no te rayes jugando conmigo."
 
 # game/chess.rpy:1072
 translate spanish mas_chess_start_chess_8d8da5bc:
 
     # m 3ekb "It really means a lot to me that you keep playing if you do~"
-    m 3ekb ""
+    m 3ekb "Me mola mucho que sigas jugando, si lo haces."
 
 # game/chess.rpy:1073
 translate spanish mas_chess_start_chess_ff4c9b5d:
 
     # m 3hua "Let's play again soon, alright?"
-    m 3hua ""
+    m 3hua "Venga... juguemos otra pronto, ¿vale?"
 
 # game/chess.rpy:1076
 translate spanish mas_chess_start_chess_0234ec52:
 
     # m 1ekc "Giving up, [player]?"
-    m 1ekc ""
+    m 1ekc "¿Ya estás rindiéndote, [player]?"
 
 # game/chess.rpy:1077
 translate spanish mas_chess_start_chess_77e4d9e7:
 
     # m 1eub "Alright, but even if things aren't going too well, it's more fun to play to the end!"
-    m 1eub ""
+    m 1eub "Vale, aunque la cosa no vaya muy bien ... ¡la gracia es seguir hasta el final!"
 
 # game/chess.rpy:1078
 translate spanish mas_chess_start_chess_6586871a:
 
     # m 3eka "In the end, I'm just happy to be spending time with you~"
-    m 3eka ""
+    m 3eka "Al final, lo importante es difrutar el tiempo juntos."
 
 # game/chess.rpy:1079
 translate spanish mas_chess_start_chess_fe9c0937:
 
     # m 1eua "Anyway..."
-    m 1eua ""
+    m 1eua "De todas formas..."
 
 # game/chess.rpy:1083
 translate spanish mas_chess_start_chess_2377db7a:
 
     # m 1sub "I won, yay!~"
-    m 1sub ""
+    m 1sub "¡Te gané, olé!"
 
 # game/chess.rpy:1096
 translate spanish mas_chess_start_chess_fe9c0937_1:
 
     # m 1eua "Anyway..."
-    m 1eua ""
+    m 1eua "Total..."
 
 # game/chess.rpy:1110
 translate spanish mas_chess_start_chess_ed69febf:
 
     # m 1eua "Sure, we'll call this game a draw."
-    m 1eua ""
+    m 1eua "Vale, demos esta partida por empate."
 
 # game/chess.rpy:1111
 translate spanish mas_chess_start_chess_7fc09fe5:
 
     # m 3wuo "That was a pretty long game!"
-    m 3wuo ""
+    m 3wuo "¡Menuda partida tan larga!"
 
 # game/chess.rpy:1115
 translate spanish mas_chess_start_chess_dacd03c3:
 
     # m 1eka "Aw, looks like we have a stalemate."
-    m 1eka ""
+    m 1eka "Vaya... parece que tenemos un empate por ahogado."
 
 # game/chess.rpy:1119
 translate spanish mas_chess_start_chess_52127a00:
 
     # m 3hub "[line_start], you're getting closer and closer to beating me, [player]~"
-    m 3hub ""
+    m 3hub "[line_start], cada vez estás más cerca de vencerme, [player]."
 
 # game/chess.rpy:1122
 translate spanish mas_chess_start_chess_27c4f439:
 
     # m 1hua "Nice work on getting this far, [player]~"
-    m 1hua ""
+    m 1hua "Bien hecho, has llegado bastante lejos, [player]."
 
 # game/chess.rpy:1145
 translate spanish mas_chess_start_chess_8af96f98:
 
     # m 3hub "Congratulations [player], you won!"
-    m 3hub ""
+    m 3hub "¡Enhorabuena [player], me has ganado!"
 
 # game/chess.rpy:1149
 translate spanish mas_chess_start_chess_703c118d:
 
     # m 1wuo "You didn't undo a single move!{w=0.2} {nw}"
-    m 1wuo ""
+    m 1wuo "¡No has retrocedido ni una sola jugada!{w=0.2} {nw}"
 
 # game/chess.rpy:1150
 translate spanish mas_chess_start_chess_bfd152d9:
