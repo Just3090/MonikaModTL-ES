@@ -190,7 +190,7 @@ translate spanish mas_chess_start_chess_fe9c0937:
 translate spanish mas_chess_start_chess_2377db7a:
 
     # m 1sub "I won, yay!~"
-    m 1sub "¡Te gané, olé!"
+    m 1sub "Te gané ¡Yuju!"
 
 # game/chess.rpy:1096
 translate spanish mas_chess_start_chess_fe9c0937_1:
