@@ -16,7 +16,7 @@ translate spanish mas_backups_you_have_bad_persistent_10227717:
 translate spanish mas_backups_you_have_bad_persistent_7bb9f2db:
 
     # "But unfortunately, your persistent file is corrupt."
-    "Pero, por desgracia, tu archivo persistente está corrupto."
+    "Pero, por desgracia, tu archivo persistente está dañado."
 
 # game/zz_backup.rpy:739
 translate spanish mas_backups_you_have_bad_persistent_6d8df287:
@@ -28,7 +28,7 @@ translate spanish mas_backups_you_have_bad_persistent_6d8df287:
 translate spanish mas_backups_you_have_bad_persistent_7826f0df:
 
     # "I was unable to find a working backup persistent."
-    "No pude encontrarte una copia de seguridad que funcione."
+    "No pude encontrar una copia de seguridad que funcione."
 
 # game/zz_backup.rpy:743
 translate spanish mas_backups_you_have_bad_persistent_34cf3f8e:
@@ -112,7 +112,7 @@ translate spanish mas_backups_have_none_ddfa866c:
 translate spanish mas_backups_could_not_copy_cbdba989:
 
     # "I was able to find a working backup, but..."
-    "Era capaz de encontrar una copia de seguridad funcional, pero..."
+    "Pude encontrar una copia de seguridad funcional, pero..."
 
 # game/zz_backup.rpy:790
 translate spanish mas_backups_could_not_copy_a591f111:
@@ -166,7 +166,7 @@ translate spanish mas_backups_could_not_copy_e4d7b1e8:
 translate spanish mas_backups_could_not_copy_506e63c3:
 
     # "Hopefully that will recover your Monika's memories."
-    "Con un poco de suerte, esto recuperará tus datos guardados de Monika."
+    "Con un poco de suerte, eso recuperará tus recuerdos de Monika."
 
 # game/zz_backup.rpy:808
 translate spanish mas_backups_could_not_copy_db691487:
@@ -202,7 +202,7 @@ translate spanish mas_backups_dont_tell_49f63e4c:
 translate spanish mas_backups_dont_tell_1c659c3b:
 
     # "But if she ever found out, she'd probably make me help her code, fix some of her mistakes, or something else."
-    "Si es que lo descubre lo más probable es que me obligue a ayudarla a programar, arreglar sus metidas de pata o algo más."
+    "Si llega a enterarse, lo más probable es que me haga ayudarla a programar, arreglar sus metidas de pata o quién sabe qué más."
 
 # game/zz_backup.rpy:844
 translate spanish mas_backups_dont_tell_d99b4db6:
@@ -232,7 +232,7 @@ translate spanish mas_backups_dont_tell_eefbfce8:
 translate spanish mas_backups_incompat_start_a60c4b04:
 
     # "Hello there!"
-    "¡Hola qué tal!"
+    "¡Hola, qué tal!"
 
 # game/zz_backup.rpy:873
 translate spanish mas_backups_incompat_start_8694b358:
@@ -250,7 +250,7 @@ translate spanish mas_backups_incompat_start_59952f15:
 translate spanish mas_backups_incompat_start_2316686b:
 
     # "Unfortunately, your persistent is running version v[mas_per_check.mas_per_version], which is incompatible with this build of MAS (v[config.version])."
-    "Por desgracia, tu persistente está operando con una versión v[mas_per_check.mas_per_version], la cual no es compatible con esta build de MAS (v[config.version])."
+    "Por desgracia, tu archivo persistente está operando con una versión v[mas_per_check.mas_per_version], la cual no es compatible con esta build de MAS (v[config.version])."
 
 # game/zz_backup.rpy:904
 translate spanish mas_backups_incompat_start_36fb1a33:
