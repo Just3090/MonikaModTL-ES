@@ -346,67 +346,67 @@ translate spanish mas_chess_draw_lots_47608234:
 translate spanish mas_chess_draw_lots_72a19603:
 
     # m 2eub "Oh look, I drew white![lets_begin]"
-    m 2eub ""
+    m 2eub "Mira... me han tocado las blancas.[lets_begin]"
 
 # game/chess.rpy:1286
 translate spanish mas_chess_savegame_save_start_8375815b:
 
     # m 1eka "We already have a game named '[save_name].'"
-    m 1eka ""
+    m 1eka "Ya hay una partida que se llama '[save_name].'"
 
 # game/chess.rpy:1288
 translate spanish mas_chess_savegame_save_start_c70564be:
 
     # m "Should I overwrite it?{nw}"
-    m ""
+    m "¿Quieres que lo sobrescriba?{nw}"
 
 # game/chess.rpy:1291
 translate spanish mas_chess_savegame_save_start_527218b8:
 
     # m "Should I overwrite it?{fast}" nointeract
-    m "" nointeract
+    m "¿Quieres que lo sobrescriba?{fast}" nointeract
 
 # game/chess.rpy:1314
 translate spanish mas_chess_savegame_save_start_2c941545:
 
     # m 1dsc ".{w=0.5}.{w=0.5}.{nw}"
-    m 1dsc ""
+    m 1dsc ".{w=0.5}.{w=0.5}.{nw}"
 
 # game/chess.rpy:1315
 translate spanish mas_chess_savegame_save_start_3cffd949:
 
     # m 1hua "I've saved our game in '[display_file_path]'!"
-    m 1hua ""
+    m 1hua "He guardado nuestra partida en '[display_file_path]'."
 
 # game/chess.rpy:1321
 translate spanish mas_chess_savegame_pgn_explain_27b254e6:
 
     # m 1esa "It's in a format called 'Portable Game Notation.'{w=0.2} {nw}"
-    m 1esa ""
+    m 1esa "Está guardado en un formato llamado 'Notación Portable de Partida' o PGN.{w=0.2} {nw}"
 
 # game/chess.rpy:1322
 translate spanish mas_chess_savegame_pgn_explain_ebc860c3:
 
     # extend 1eua "You can find PGN analyzers online to open it and see where you made your mistakes."
-    extend 1eua ""
+    extend 1eua "Puedes buscar analizadores PGN en internet para ver dónde metiste la pata."
 
 # game/chess.rpy:1323
 translate spanish mas_chess_savegame_pgn_explain_35985a6f:
 
     # m 3eub "Whether you win, lose, surrender, or draw, there's always something you could've done better, so loading these games up can really help you improve!"
-    m 3eub ""
+    m 3eub "Ganes, pierdas, te rindas o empates, siempre hay algo que podrías haber hecho mejor. Por lo que abrir estas partidas siempre viene de lujo para mejorar."
 
 # game/chess.rpy:1326
 translate spanish mas_chess_savegame_pgn_explain_e49b6220:
 
     # m 1lksdlb "It's possible to edit this file and change the outcome of the game...{w=0.5} {nw}"
-    m 1lksdlb ""
+    m 1lksdlb "También es posible editar este archivo y cambiar cómo acaba la partida...{w=0.5} {nw}"
 
 # game/chess.rpy:1327
 translate spanish mas_chess_savegame_pgn_explain_0c85f20b:
 
     # extend 1tsu "but I'm sure you wouldn't do that."
-    extend 1tsu ""
+    extend 1tsu "Aunque me fío de que no lo harías."
 
 # game/chess.rpy:1329
 translate spanish mas_chess_savegame_pgn_explain_e897b6e6:
@@ -418,19 +418,19 @@ translate spanish mas_chess_savegame_pgn_explain_e897b6e6:
 translate spanish mas_chess_savegame_pgn_explain_a013343e:
 
     # m "Right, [player]?{fast}" nointeract
-    m "" nointeract
+    m "¿No es así, [player]?{fast}" nointeract
 
 # game/chess.rpy:1335
 translate spanish mas_chess_savegame_pgn_explain_c46167fd:
 
     # m 1hua "Yay~"
-    m 1hua ""
+    m 1hua "¡Yuju!"
 
 # game/chess.rpy:1338
 translate spanish mas_chess_savegame_pgn_explain_47e99198:
 
     # m 1eub "Let's continue this game soon!"
-    m 1eub ""
+    m 1eub "A ver si seguimos con la partida pronto."
 
 # game/chess.rpy:1342
 translate spanish mas_chess_locked_no_play_092519a6:
