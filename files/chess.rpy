@@ -16,7 +16,7 @@ translate spanish game_chess_3507e2a3:
 translate spanish game_chess_5e027179:
 
     # m 2wfx "You removed the save again."
-    m 2wfx "Has borrado la partida de nuevo.-"
+    m 2wfx "Has borrado la partida de nuevo."
 
 # game/chess.rpy:785
 translate spanish game_chess_8bc6286c:
@@ -394,7 +394,7 @@ translate spanish mas_chess_savegame_pgn_explain_ebc860c3:
 translate spanish mas_chess_savegame_pgn_explain_35985a6f:
 
     # m 3eub "Whether you win, lose, surrender, or draw, there's always something you could've done better, so loading these games up can really help you improve!"
-    m 3eub "Ganes, pierdas, te rindas o empates, siempre hay algo que podrías haber hecho mejor. Por lo que abrir estas partidas siempre viene de lujo para mejorar."
+    m 3eub "Ganes, pierdas, te rindas o empates, siempre habrá algo que podrías haber hecho mejor. Por lo que abrir estas partidas siempre viene de lujo para mejorar."
 
 # game/chess.rpy:1326
 translate spanish mas_chess_savegame_pgn_explain_e49b6220:
@@ -454,7 +454,7 @@ translate spanish mas_chess_cannot_work_embarrassing_7faca44c:
 translate spanish mas_chess_cannot_work_embarrassing_4bdc0c42:
 
     # m 3hksdlb "Well that's embarrassing, it seems I can't actually get chess to work on your system..."
-    m 3hksdlb "Vaya, qué bochorno... no consigo que el juego de ajedrez funcione en tu equipo."
+    m 3hksdlb "Vaya, qué vergonzoso... no consigo que el juego de ajedrez funcione en tu equipo."
 
 # game/chess.rpy:1352
 translate spanish mas_chess_cannot_work_embarrassing_a605df73:
@@ -514,7 +514,7 @@ translate spanish mas_chess_dlg_game_monika_wins_sometimes_b275f0cd:
 translate spanish mas_chess_dlg_game_monika_wins_sometimes_aaa14f22:
 
     # m 3eua "Until then though, I'll try and go a little easier on you."
-    m 3eua "Hasta que eso pase, intentaré ir un poco más lento."
+    m 3eua "Hasta que eso pase, intentaré ir un poco más despacio."
 
 # game/chess.rpy:1423
 translate spanish mas_chess_save_multi_dlg_c7b7e8f2:
@@ -532,7 +532,7 @@ translate spanish mas_chess_save_multi_dlg_06987ede:
 translate spanish mas_chess_save_multi_dlg_6496b704:
 
     # m 3eud "...So it makes no sense for me to keep track of more than one unfinished game between us."
-    m 3eud "Por lo que no tiene mucho sentido llevar más de una partida inconclusa contigo."
+    m 3eud "Por lo que no tiene mucho sentido que llevemos más de una partida inconclusa."
 
 # game/chess.rpy:1426
 translate spanish mas_chess_save_multi_dlg_28af9245:
@@ -586,7 +586,7 @@ translate spanish mas_chess_dlg_quicksave_lost_db12ef2e:
 translate spanish mas_chess_dlg_quicksave_lost_d22ee58b:
 
     # m 1eka "But don't worry, I'll make it up to you...{w=0.3}{nw}"
-    m 1eka "Pero no te preocupes, te lo arreglaré....{w=0.3}{nw}"
+    m 1eka "Pero no te preocupes, lo arreglaré....{w=0.3}{nw}"
 
 # game/chess.rpy:1479
 translate spanish mas_chess_dlg_quicksave_lost_d8c79967:
