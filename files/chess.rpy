@@ -64,13 +64,13 @@ translate spanish mas_chess_remenu_e87a6bf1:
 translate spanish mas_chess_remenu_441eccc5:
 
     # extend 1eua "Naturally, {i}Normal Chess{/i} means standard chess."
-    extend 1eua "Como es lógico, el Ajedrez Normal se refiere al ajedrez clásico."
+    extend 1eua "Como es lógico, el Normal Chess se refiere al ajedrez clásico."
 
 # game/chess.rpy:970
 translate spanish mas_chess_remenu_2119bcd1:
 
     # m 3eua "Then there's {i}Randomized Chess{/i}, a mode based on {i}Really Bad Chess{/i}."
-    m 3eua "Luego, también está el Ajedrez Aleatorio que se basa en"
+    m 3eua "Luego, también está el Randomized Chess que se basa en el Really Bad Chess."
 
 # game/chess.rpy:971
 translate spanish mas_chess_remenu_8bf8baa4:
@@ -82,7 +82,7 @@ translate spanish mas_chess_remenu_8bf8baa4:
 translate spanish mas_chess_remenu_a701c0b9:
 
     # m 1eua "Alternatively, there's a more fair random chess mode called {i}Chess 960{/i}, also known as {i}Fischer Random Chess{/i}."
-    m 1eua "O sino también tienes el Ajedrez 960, que viene a ser el Ajedrez Aleatorio de Fischer."
+    m 1eua "O sino también tienes el Chess 960, que viene a ser el Fischer Ramdom Chess."
 
 # game/chess.rpy:973
 translate spanish mas_chess_remenu_4fe52604:
@@ -94,7 +94,7 @@ translate spanish mas_chess_remenu_4fe52604:
 translate spanish mas_chess_remenu_0a2b0e5d:
 
     # m 4hua "There's 960 possible starting positions, so it was called {i}Chess 960{/i}."
-    m 4hua "Hay exactamente 960 posiciones iniciales posibles, por eso se llama {i}{/i}."
+    m 4hua "Hay exactamente 960 posiciones iniciales posibles, por eso se llama Chess 960."
 
 # game/chess.rpy:975
 translate spanish mas_chess_remenu_dada6bbd:
@@ -190,7 +190,7 @@ translate spanish mas_chess_start_chess_fe9c0937:
 translate spanish mas_chess_start_chess_2377db7a:
 
     # m 1sub "I won, yay!~"
-    m 1sub "Te gané ¡Yuju!"
+    m 1sub "¡Te gané!"
 
 # game/chess.rpy:1096
 translate spanish mas_chess_start_chess_fe9c0937_1:
@@ -424,7 +424,7 @@ translate spanish mas_chess_savegame_pgn_explain_a013343e:
 translate spanish mas_chess_savegame_pgn_explain_c46167fd:
 
     # m 1hua "Yay~"
-    m 1hua "¡Yuju!"
+    m 1hua "¡Genial!"
 
 # game/chess.rpy:1338
 translate spanish mas_chess_savegame_pgn_explain_47e99198:
@@ -586,7 +586,7 @@ translate spanish mas_chess_dlg_quicksave_lost_db12ef2e:
 translate spanish mas_chess_dlg_quicksave_lost_d22ee58b:
 
     # m 1eka "But don't worry, I'll make it up to you...{w=0.3}{nw}"
-    m 1eka "Pero no te preocupes, lo arreglaré....{w=0.3}{nw}"
+    m 1eka "Pero no te preocupes, lo arreglaré...{w=0.3}{nw}"
 
 # game/chess.rpy:1479
 translate spanish mas_chess_dlg_quicksave_lost_d8c79967:
