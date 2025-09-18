@@ -610,7 +610,7 @@ translate spanish mas_chess_dlg_quicksave_lost_297eb97f:
 translate spanish mas_chess_dlg_quicksave_lost_cefb8c08:
 
     # m 3eksdla "Let's start a new game instead."
-    m 3eksdla "Mejor empezamos una nueva partida."
+    m 3eksdla "Mejor empecemos una nueva partida."
 
 # game/chess.rpy:1487
 translate spanish mas_chess_dlg_quicksave_lost_39072f4d:
@@ -622,139 +622,139 @@ translate spanish mas_chess_dlg_quicksave_lost_39072f4d:
 translate spanish mas_chess_dlg_quicksave_lost_cf8a6a73:
 
     # m 2tsc "I wonder if this is a side effect of {i}someone{/i} trying to edit the saves.{w=1}.{w=1}."
-    m 2tsc ""
+    m 2tsc "Tal vez, esto se deba a que alguien está tratando de modificar los datos guardados.{w=1}.{w=1}."
 
 # game/chess.rpy:1489
 translate spanish mas_chess_dlg_quicksave_lost_0eae88ec:
 
     # m 7rsc "Anyway..."
-    m 7rsc ""
+    m 7rsc "Bueno...
 
 # game/chess.rpy:1490
 translate spanish mas_chess_dlg_quicksave_lost_61e666c3:
 
     # m 1esc "Let's start a new game."
-    m 1esc ""
+    m 1esc "Mejor empecemos una nueva partida."
 
 # game/chess.rpy:1493
 translate spanish mas_chess_dlg_quicksave_lost_a7509a9c:
 
     # m 1lksdlc "I'm sorry..."
-    m 1lksdlc ""
+    m 1lksdlc "Lo lamento..."
 
 # game/chess.rpy:1494
 translate spanish mas_chess_dlg_quicksave_lost_41af46d5:
 
     # m 3eka "Let's start a new game instead."
-    m 3eka ""
+    m 3eka "Mejor empecemos una nueva partida."
 
 # game/chess.rpy:1502
 translate spanish mas_chess_dlg_quickfile_lost_ea169cc7:
 
     # m 2lksdla "Well this is embarrassing..."
-    m 2lksdla ""
+    m 2lksdla "Perdón... esto es en verdad vergonzoso."
 
 # game/chess.rpy:1503
 translate spanish mas_chess_dlg_quickfile_lost_8e0a9aac:
 
     # m 2ekc "I could have sworn that we had an unfinished game, but I can't find the save file."
-    m 2ekc ""
+    m 2ekc "Puedo jurar que había una partida en marcha, pero no puedo encontrarla entre los archivos guardados."
 
 # game/chess.rpy:1505
 translate spanish mas_chess_dlg_quickfile_lost_1c3a5d15:
 
     # m 2tkc "Did you mess with the saves, [player]?{nw}"
-    m 2tkc ""
+    m 2tkc "¿De casualidad no has tocado las partidas guardadas, [player]?{nw}"
 
 # game/chess.rpy:1508
 translate spanish mas_chess_dlg_quickfile_lost_f27f6469:
 
     # m "Did you mess with the saves, [player]?{fast}" nointeract
-    m "" nointeract
+    m "De casualidad no has tocado las partida guardadas, [player]?{fast}" nointeract
 
 # game/chess.rpy:1525
 translate spanish mas_chess_dlg_quickfile_lost_deleted_e87f814d:
 
     # m 1eka "Thanks for being honest with me, [player]."
-    m 1eka ""
+    m 1eka "Gracias por tu honestidad, [player]."
 
 # game/chess.rpy:1527
 translate spanish mas_chess_dlg_quickfile_lost_deleted_7fc2ae0b:
 
     # m 3ekd "Did you not want to continue that game?{nw}"
-    m 3ekd ""
+    m 3ekd "¿Te gustaría continuar aquella partida?{nw}"
 
 # game/chess.rpy:1530
 translate spanish mas_chess_dlg_quickfile_lost_deleted_ae2adb13:
 
     # m "Did you not want to continue that game?{fast}" nointeract
-    m "" nointeract
+    m "¿Te gustaría continuar aquella partida?{fast}" nointeract
 
 # game/chess.rpy:1533
 translate spanish mas_chess_dlg_quickfile_lost_deleted_eb42e33a:
 
     # m 1eka "I understand, [player]."
-    m 1eka ""
+    m 1eka "Ya veo... [player]."
 
 # game/chess.rpy:1534
 translate spanish mas_chess_dlg_quickfile_lost_deleted_33c3dc8e:
 
     # m 1hua "Let's start a new game~"
-    m 1hua ""
+    m 1hua "Pues... empecemos una nueva partida."
 
 # game/chess.rpy:1537
 translate spanish mas_chess_dlg_quickfile_lost_deleted_ad363a17:
 
     # m 1etc "Oh?"
-    m 1etc ""
+    m 1etc "¿Qué?"
 
 # game/chess.rpy:1538
 translate spanish mas_chess_dlg_quickfile_lost_deleted_0f2b82a7:
 
     # m 1rsc "I guess you just deleted it by mistake then."
-    m 1rsc ""
+    m 1rsc "Entonces, creo que la eliminaste por error."
 
 # game/chess.rpy:1539
 translate spanish mas_chess_dlg_quickfile_lost_deleted_19a3e417:
 
     # m 1eua "Let's just start a new game."
-    m 1eua ""
+    m 1eua "Pues... empecemos una nueva partida."
 
 # game/chess.rpy:1549
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_5b0ed382:
 
     # m 2esc "..."
-    m 2esc ""
+    m 2esc "..."
 
 # game/chess.rpy:1550
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_575df7d4:
 
     # m "[player],{w=0.2} did you..."
-    m ""
+    m "[player],{w=0.2} acaso has..."
 
 # game/chess.rpy:1551
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_87a07ff4:
 
     # m 2dsc "Nevermind."
-    m 2dsc ""
+    m 2dsc "No importa."
 
 # game/chess.rpy:1552
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_16a2e1d9:
 
     # m 1esc "Let's play a new game."
-    m 1esc ""
+    m 1esc "Mejor empecemos una nueva partida."
 
 # game/chess.rpy:1556
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_5b0ed382_1:
 
     # m 2esc "..."
-    m 2esc ""
+    m 2esc "..."
 
 # game/chess.rpy:1557
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_8d90c5b3:
 
     # m "[player],{w=0.2} this is happening way too much."
-    m ""
+    m "[player],{w=0.2} esto está pasando muy a menudo."
 
 # game/chess.rpy:1558
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_89fbc396:
