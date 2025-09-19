@@ -628,7 +628,7 @@ translate spanish mas_chess_dlg_quicksave_lost_cf8a6a73:
 translate spanish mas_chess_dlg_quicksave_lost_0eae88ec:
 
     # m 7rsc "Anyway..."
-    m 7rsc "Bueno...
+    m 7rsc "Bueno..."
 
 # game/chess.rpy:1490
 translate spanish mas_chess_dlg_quicksave_lost_61e666c3:
