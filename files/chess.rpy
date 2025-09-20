@@ -760,61 +760,61 @@ translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_8d90c5b3:
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_89fbc396:
 
     # m 2dsc "I really don't believe you this time."
-    m 2dsc ""
+    m 2dsc "La verdad es que esta vez ya no te creo."
 
 # game/chess.rpy:1560
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_a13f8ce2:
 
     # m 2esc "I hope you're not messing with me."
-    m 2esc ""
+    m 2esc "Espero que no estés liándola a propósito."
 
 # game/chess.rpy:1561
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_e612037c:
 
     # m "..."
-    m ""
+    m "..."
 
 # game/chess.rpy:1562
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_f4e089fa:
 
     # m 1esc "Whatever.{w=0.5} Let's just play a new game."
-    m 1esc ""
+    m 1esc "Bueno, no importa...{w=0.5} mejor empecemos una nueva partida."
 
 # game/chess.rpy:1574
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_01a93df6:
 
     # m 2dfc "..."
-    m 2dfc ""
+    m 2dfc "..."
 
 # game/chess.rpy:1575
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_68ab2144:
 
     # m 2efc "[player],{w=0.3} I don't believe you."
-    m 2efc ""
+    m 2efc "[player],{w=0.3} Ya no te creo."
 
 # game/chess.rpy:1576
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_746a9094:
 
     # m 2efd "If you're just going to throw away our chess games like that..."
-    m 2efd ""
+    m 2efd "Si vas a tirar por la borda nuestras partidas así como así..."
 
 # game/chess.rpy:1577
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_5551b89f:
 
     # m 6wfw "Then I don't want to play chess with you anymore!"
-    m 6wfw ""
+    m 6wfw "Ya no voy a querer volver a echar partidas contigo."
 
 # game/chess.rpy:1581
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_6be49146:
 
     # m 1lksdlb "Ah, yeah. You wouldn't do that to me."
-    m 1lksdlb ""
+    m 1lksdlb "Ah, por supuesto. Sé bien que no me harás eso."
 
 # game/chess.rpy:1582
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_1eaeb43d:
 
     # m "I must have misplaced the save file."
-    m ""
+    m "Seguro que he extraviado el archivo de guardado."
 
 # game/chess.rpy:1583
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_235ad172:
