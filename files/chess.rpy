@@ -64,13 +64,13 @@ translate spanish mas_chess_remenu_e87a6bf1:
 translate spanish mas_chess_remenu_441eccc5:
 
     # extend 1eua "Naturally, {i}Normal Chess{/i} means standard chess."
-    extend 1eua "Como es lógico, el Normal Chess se refiere al ajedrez clásico."
+    extend 1eua "Como es lógico, el 'Chess' Normal se refiere al ajedrez clásico."
 
 # game/chess.rpy:970
 translate spanish mas_chess_remenu_2119bcd1:
 
     # m 3eua "Then there's {i}Randomized Chess{/i}, a mode based on {i}Really Bad Chess{/i}."
-    m 3eua "Luego, también está el Randomized Chess que se basa en el Really Bad Chess."
+    m 3eua "Luego, también está el 'Chess' Aleatorio que se basa en el Really Bad Chess."
 
 # game/chess.rpy:971
 translate spanish mas_chess_remenu_8bf8baa4:
@@ -82,7 +82,7 @@ translate spanish mas_chess_remenu_8bf8baa4:
 translate spanish mas_chess_remenu_a701c0b9:
 
     # m 1eua "Alternatively, there's a more fair random chess mode called {i}Chess 960{/i}, also known as {i}Fischer Random Chess{/i}."
-    m 1eua "O sino también tienes el Chess 960, que viene a ser el Fischer Ramdom Chess."
+    m 1eua "O sino también tienes el 'Chess' 960, que viene a ser el Ajedrez aleatorio de Fischer."
 
 # game/chess.rpy:973
 translate spanish mas_chess_remenu_4fe52604:
@@ -94,7 +94,7 @@ translate spanish mas_chess_remenu_4fe52604:
 translate spanish mas_chess_remenu_0a2b0e5d:
 
     # m 4hua "There's 960 possible starting positions, so it was called {i}Chess 960{/i}."
-    m 4hua "Hay exactamente 960 posiciones iniciales posibles, por eso se llama Chess 960."
+    m 4hua "Hay exactamente 960 posiciones iniciales posibles, por eso se llama 'Chess' 960."
 
 # game/chess.rpy:975
 translate spanish mas_chess_remenu_dada6bbd:
@@ -262,7 +262,7 @@ translate spanish mas_chess_start_chess_4fb0b0f8:
 translate spanish mas_chess_start_chess_231fdb4f:
 
     # m 1hua "You only undid [undo_count] times too, great job."
-    m 1hua "Sólo has desecho [undo_count] movimientos, excelente trabajo."
+    m 1hua "Sólo has desecho [undo_count] movimientos, buen trabajo."
 
 # game/chess.rpy:1160
 translate spanish mas_chess_start_chess_436c0307:
@@ -352,7 +352,7 @@ translate spanish mas_chess_draw_lots_72a19603:
 translate spanish mas_chess_savegame_save_start_8375815b:
 
     # m 1eka "We already have a game named '[save_name].'"
-    m 1eka "Ya hay una partida que se llama '[save_name].'"
+    m 1eka "Ya existe una partida llamada '[save_name].'"
 
 # game/chess.rpy:1288
 translate spanish mas_chess_savegame_save_start_c70564be:
@@ -382,7 +382,7 @@ translate spanish mas_chess_savegame_save_start_3cffd949:
 translate spanish mas_chess_savegame_pgn_explain_27b254e6:
 
     # m 1esa "It's in a format called 'Portable Game Notation.'{w=0.2} {nw}"
-    m 1esa "Está guardada en un formato llamado 'Notación Portable de Partida' o PGN.{w=0.2} {nw}"
+    m 1esa "Está guardada en un formato llamado 'Notación de Partida Portátil' o PGN.{w=0.2} {nw}"
 
 # game/chess.rpy:1322
 translate spanish mas_chess_savegame_pgn_explain_ebc860c3:
@@ -940,7 +940,7 @@ translate spanish mas_chess_dlg_quickfile_lost_maybe_save_found_231a42ed:
 translate spanish mas_chess_dlg_quickfile_lost_accident_7fd8f6bf:
 
     # m 1eka "Again? Don't be so clumsy, [player]."
-    m 1eka "¿En serio está pasando otra vez? Por favor, deja de liarla, [player]."
+    m 1eka "¿Otra vez? Deja de ser tan patoso, [player]."
 
 # game/chess.rpy:1682
 translate spanish mas_chess_dlg_quickfile_lost_accident_0352edc8:
@@ -982,7 +982,7 @@ translate spanish mas_chess_dlg_quickfile_lost_accident_3278aa0f:
 translate spanish mas_chess_dlg_quickfile_lost_accident_6cc88427:
 
     # extend 1eka "That's okay.{w=0.3} Accidents happen."
-    extend 1eka "No pasa nada.{w=0.3} Los accidentes pasan."
+    extend 1eka "No pasa nada.{w=0.3} Los accidentes ocurren..."
 
 # game/chess.rpy:1695
 translate spanish mas_chess_dlg_quickfile_lost_accident_2897c47d:
@@ -1197,15 +1197,15 @@ translate spanish strings:
 
     # game/chess.rpy:871
     old "Normal Chess"
-    new ""
+    new "'Chess' normal"
 
     # game/chess.rpy:871
     old "Randomized Chess"
-    new ""
+    new "'Chess' aleatorio"
 
     # game/chess.rpy:871
     old "Chess 960"
-    new ""
+    new "'Chess' 960"
 
     # game/chess.rpy:871
     old "Can you explain these game-modes?"
@@ -1213,7 +1213,7 @@ translate spanish strings:
 
     # game/chess.rpy:871
     old "Ruleset"
-    new ""
+    new "Reglamento"
 
     # game/chess.rpy:871
     old "Practice or Play"
@@ -1257,7 +1257,7 @@ translate spanish strings:
 
     # game/chess.rpy:871
     old "Let's draw lots!"
-    new ""
+    new "Echémoslo a la suerte"
 
     # game/chess.rpy:1129
     old "I'm so proud of you, [player]!"
@@ -1302,125 +1302,125 @@ translate spanish strings:
 
     # game/chess.rpy:1419
     old "You still need to pick a game to keep."
-    new ""
+    new "Aún tienes que elgegir qué partida conservar."
 
     # game/chess.rpy:1428
     old "Pick a game you'd like to keep."
-    new ""
+    new "Elige el juego que quieras conservar."
 
     # game/chess.rpy:1507
     old "I deleted the save."
-    new ""
+    new "Ya borré la partida guardada."
 
     # game/chess.rpy:1507
     old "It was an accident!"
-    new ""
+    new "Fue por accidente."
 
     # game/chess.rpy:1507
     old "Maybe..."
-    new ""
+    new "Tal vez..."
 
     # game/chess.rpy:1507
     old "Of course not!"
-    new ""
+    new "¡Claro que no!"
 
     # game/chess.rpy:1529
     old "Yeah."
-    new ""
+    new "Vale."
 
     # game/chess.rpy:1651
     old "I deleted the save..."
-    new ""
+    new "Ya borré la partida..."
 
     # game/chess.rpy:1727
     old "I'm sorry."
-    new ""
+    new "Lo lamento mucho."
 
     # game/chess.rpy:1916
     old "Select piece to promote to"
-    new ""
+    new "Seleciona la pieza que quieras ascender."
 
     # game/chess.rpy:3244
     old "Surrender"
-    new ""
+    new "Rendirse"
 
     # game/chess.rpy:3255
     old "Call Draw"
-    new ""
+    new "Pedir empate."
 
     # game/chess.rpy:3281
     old "Undo"
-    new ""
+    new "Deshacer"
 
     # game/chess.rpy:3293
     old "It's your turn, [player]."
-    new ""
+    new "Te toca mover, [player]."
 
     # game/chess.rpy:3293
     old "Your move, [player]~"
-    new ""
+    new "Te toca, {player]"
 
     # game/chess.rpy:3293
     old "What will you do, I wonder..."
-    new ""
+    new "Me pregunto qué jugada harás...."
 
     # game/chess.rpy:3293
     old "Alright, your turn, [player]~"
-    new ""
+    new "Vale, te toca, [player]."
 
     # game/chess.rpy:3293
     old "You got this, [player]!"
-    new ""
+    new "¡Venga que tú puedes, [player]!"
 
     # game/chess.rpy:3293
     old "[mas_quipExp('3tfb')]Check!"
-    new ""
+    new "[mas_quipExp('3tfb')]¡Jaque!"
 
     # game/chess.rpy:3293
     old "[mas_quipExp('3huu')]I've got you now, [player]!"
-    new ""
+    new "[mas_quipExp('3huu')]Te tengo pillado ahora, [player]."
 
     # game/chess.rpy:3293
     old "[mas_quipExp('3hub')]Looks like you're in check!"
-    new ""
+    new "[mas_quipExp('3hub')]Parece que estás en jaque."
 
     # game/chess.rpy:3293
     old "Alright, let's see..."
-    new ""
+    new "Vale, veamos..."
 
     # game/chess.rpy:3293
     old "Okay, my turn..."
-    new ""
+    new "Vale, es mi turno..."
 
     # game/chess.rpy:3293
     old "Let's see what I can do."
-    new ""
+    new "Veamos qué puedo hacer."
 
     # game/chess.rpy:3293
     old "I think I'll try this..."
-    new ""
+    new "Voy a probar hacer esto..."
 
     # game/chess.rpy:3293
     old "Okay, I'll move this here then."
-    new ""
+    new "Vale, entonces pondré esto aquí."
 
     # game/chess.rpy:3293
     old "[mas_quipExp('1eusdlc')]Uh oh..."
-    new ""
+    new "[mas_quipExp('1eusdlc')]Ay, no..."
 
     # game/chess.rpy:3293
     old "[mas_quipExp('1rksdlc')]Hmm...{w=0.2}I need to get out of this..."
-    new ""
+    new "[mas_quipExp('1rksdlc')]Emm...{w=0.2}Tengo que safar de esto..."
 
     # game/chess.rpy:3293
     old "[mas_quipExp('1etc')]What's the right move here..."
-    new ""
+    new "[mas_quipExp('1etc')]Qué jugada debería hacer ahora...?"
 
     # game/chess.rpy:3445
     old "You'd like to continue later?"
-    new ""
+    new "¿Te gustaría seguir con esto más tarde?"
 
     # game/chess.rpy:3460
     old "Are you sure you want to give up?"
-    new ""
+    new "¿Seguro de que quieres tirar la toalla?"
 
