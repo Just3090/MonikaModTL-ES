@@ -52,7 +52,7 @@ translate spanish mas_chess_remenu_6b6b37ac:
 translate spanish mas_chess_remenu_51dbe566:
 
     # m 1eka "We'll play another time though, right?"
-    m 1eka "Ya echaremos otra partida otro día, ¿vale?"
+    m 1eka "Ya echaremos una partida otro día, ¿vale?"
 
 # game/chess.rpy:968
 translate spanish mas_chess_remenu_e87a6bf1:
@@ -70,7 +70,7 @@ translate spanish mas_chess_remenu_441eccc5:
 translate spanish mas_chess_remenu_2119bcd1:
 
     # m 3eua "Then there's {i}Randomized Chess{/i}, a mode based on {i}Really Bad Chess{/i}."
-    m 3eua "Luego, también está el 'Chess' Aleatorio que se basa en el Really Bad Chess."
+    m 3eua "Luego, también está el 'Chess' Aleatorio que se basa en el 'Really Bad Chess'."
 
 # game/chess.rpy:971
 translate spanish mas_chess_remenu_8bf8baa4:
@@ -88,7 +88,7 @@ translate spanish mas_chess_remenu_a701c0b9:
 translate spanish mas_chess_remenu_4fe52604:
 
     # m 3eud "In this mode, the pieces in the back row are randomly shuffled while ensuring the bishops are placed on opposite color squares and the king is placed between two rooks."
-    m 3eud "Aquí las piezas de la fila de atrás se colocan al azar, pero presta atención porque los alfiles van en casillas de distinto color y el rey siempre entre las torres."
+    m 3eud "Aquí las piezas de la fila de atrás se colocan al azar, pero atento que los alfiles van en casillas de distinto color y el rey siempre entre las torres."
 
 # game/chess.rpy:974
 translate spanish mas_chess_remenu_0a2b0e5d:
@@ -118,7 +118,7 @@ translate spanish mas_chess_remenu_278fdfc1:
 translate spanish mas_chess_remenu_1e07b804:
 
     # m 1eua "If we play with casual rules, we just won't count stalemates as draws.{w=0.2} {nw}"
-    m 1eua "Si jugamos con reglas casuales, los empates por rey ahogado no se cuentan.{w=0.2} {nw}"
+    m 1eua "Si jugamos con reglas casuales, las tablas por ahogado no se cuentan.{w=0.2} {nw}"
 
 # game/chess.rpy:989
 translate spanish mas_chess_remenu_1c1f75b5:
@@ -154,7 +154,7 @@ translate spanish mas_chess_start_chess_4fc7f6cc:
 translate spanish mas_chess_start_chess_8d8da5bc:
 
     # m 3ekb "It really means a lot to me that you keep playing if you do~"
-    m 3ekb "Me mola mucho que sigas jugando, si lo haces."
+    m 3ekb "Me molaría mucho que sigas jugando, si es que lo haces."
 
 # game/chess.rpy:1073
 translate spanish mas_chess_start_chess_ff4c9b5d:
@@ -190,7 +190,7 @@ translate spanish mas_chess_start_chess_fe9c0937:
 translate spanish mas_chess_start_chess_2377db7a:
 
     # m 1sub "I won, yay!~"
-    m 1sub "¡Te gané!"
+    m 1sub "¡Te gané, olé!"
 
 # game/chess.rpy:1096
 translate spanish mas_chess_start_chess_fe9c0937_1:
@@ -232,7 +232,7 @@ translate spanish mas_chess_start_chess_27c4f439:
 translate spanish mas_chess_start_chess_8af96f98:
 
     # m 3hub "Congratulations [player], you won!"
-    m 3hub "¡Enhorabuena [player], me has ganado!"
+    m 3hub "¡Enhorabuena [player], me has vencido!"
 
 # game/chess.rpy:1149
 translate spanish mas_chess_start_chess_703c118d:
@@ -287,12 +287,12 @@ translate spanish mas_chess_start_chess_3e161ada:
 
     # m 3hua "[renpy.substitute(random.choice(player_win_quips))]"
     m 3hua "[renpy.substitute(random.choice(player_win_quips))]"
-
+  
 # game/chess.rpy:1169
 translate spanish mas_chess_start_chess_ba77caa8:
 
     # m 3eub "Great job, you won!"
-    m 3eub "¡Enhorabuena, has ganado!"
+    m 3eub "¡Enhorabuena, me has ganado!"
 
 # game/chess.rpy:1170
 translate spanish mas_chess_start_chess_43d2d26f:
@@ -502,7 +502,7 @@ translate spanish mas_chess_dlg_game_monika_wins_sometimes_c3dc3c16:
 translate spanish mas_chess_dlg_game_monika_wins_sometimes_92acc1dc:
 
     # m 3eka "No matter the outcome, I always enjoy playing chess with you~"
-    m 3eka "Da igual quién gane, siempre disfruto jugar unas partidas contigo."
+    m 3eka "Da igual quién gane, siempre disfruto echarme unas partidas contigo."
 
 # game/chess.rpy:1368
 translate spanish mas_chess_dlg_game_monika_wins_sometimes_b275f0cd:
@@ -802,7 +802,7 @@ translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_746a9094:
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_5551b89f:
 
     # m 6wfw "Then I don't want to play chess with you anymore!"
-    m 6wfw "Ya no voy a querer volver a echar partidas contigo."
+    m 6wfw "Ya no voy a querer volver a jugar contigo."
 
 # game/chess.rpy:1581
 translate spanish mas_chess_dlg_quickfile_lost_ofcoursenot_6be49146:
@@ -880,7 +880,7 @@ translate spanish mas_chess_dlg_quickfile_lost_maybe_3423dac4:
 translate spanish mas_chess_dlg_quickfile_lost_maybe_2a2f55d8:
 
     # m 1kua "You can't trick me anymore, [player]."
-    m 1kua "No te va a resultar fácil engañarme de nuevo, [player]."
+    m 1kua "No te va a resultar tan fácil engañarme de nuevo, [player]."
 
 # game/chess.rpy:1613
 translate spanish mas_chess_dlg_quickfile_lost_maybe_93e4cfa7:
@@ -1091,7 +1091,7 @@ translate spanish mas_chess_dlg_quickfile_edited_no_fcb94333:
 translate spanish mas_chess_dlg_quickfile_edited_no_8b2d1293:
 
     # extend 1rksdlc "{nw}but maybe that's just my memory failing me..."
-    extend 1rksdlc "{nw}pero quizá solamente me falla la memoria..."
+    extend 1rksdlc "{nw}pero podría estar fallándome la memoria..."
 
 # game/chess.rpy:1777
 translate spanish mas_chess_dlg_quickfile_edited_no_9f55c7c9:
@@ -1175,7 +1175,7 @@ translate spanish mas_chess_dlg_quickfile_edited_no_quicksave_1c17b6a4:
 translate spanish mas_chess_dlg_quickfile_edited_no_quicksave_0f9ece92:
 
     # m 2lfd "If you want to be like that right now, then we'll play chess some other time."
-    m 2lfd "Si en verdad quieres comportarte así ahora, mejor dejamos el jaedrez para otro momento."
+    m 2lfd "Si en verdad quieres comportarte así ahora, mejor dejamos el ajedrez para otro momento."
 
 # game/chess.rpy:1839
 translate spanish mas_chess_dlg_pre_go_ham_926262ec:
@@ -1257,7 +1257,7 @@ translate spanish strings:
 
     # game/chess.rpy:871
     old "Let's draw lots!"
-    new "Echémoslo a la suerte"
+    new "Echémoslo a la suerte."
 
     # game/chess.rpy:1129
     old "I'm so proud of you, [player]!"
@@ -1302,7 +1302,7 @@ translate spanish strings:
 
     # game/chess.rpy:1419
     old "You still need to pick a game to keep."
-    new "Aún tienes que elgegir qué partida conservar."
+    new "Aún tienes que elegir qué partida conservar."
 
     # game/chess.rpy:1428
     old "Pick a game you'd like to keep."
@@ -1346,7 +1346,7 @@ translate spanish strings:
 
     # game/chess.rpy:3255
     old "Call Draw"
-    new "Pedir empate."
+    new "Pedir empate"
 
     # game/chess.rpy:3281
     old "Undo"
